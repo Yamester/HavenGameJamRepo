@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   Player: {fileID: 6994746923158361601}
+  controller: {fileID: 0}
 --- !u!54 &2167635041355538409
 Rigidbody:
   m_ObjectHideFlags: 0
