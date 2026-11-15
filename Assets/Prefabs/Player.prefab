@@ -413,6 +413,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScipt
   mouseSens: 500
   playerbody: {fileID: 6994746923158361601}
+--- !u!1 &6720549514350607262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6770081920306563774}
+  - component: {fileID: 7211200674572440985}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6770081920306563774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720549514350607262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6994746923158361601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7211200674572440985
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720549514350607262}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6811268452266134431
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +600,7 @@ GameObject:
   - component: {fileID: 6994746923158361601}
   - component: {fileID: 7896958069850560072}
   - component: {fileID: 4382867246516369231}
+  - component: {fileID: 2404845363277405835}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -560,7 +616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8658368054554533819}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.74029624, z: -0, w: 0.67228085}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -568,8 +624,9 @@ Transform:
   - {fileID: 8306560430526182043}
   - {fileID: 2804989825469816144}
   - {fileID: 3301066974516140480}
+  - {fileID: 6770081920306563774}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -95.513, z: 0}
 --- !u!143 &7896958069850560072
 CharacterController:
   m_ObjectHideFlags: 0
@@ -609,16 +666,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   controller: {fileID: 7896958069850560072}
   groundBoxSize: {x: 1.4, y: 0.4, z: 1.4}
-  speed: 6
+  speed: 5
   gravity: -9.81
-  Recoil: 10
-  drag: 10
+  Recoil: 8
+  drag: 6
   groundCheck: {fileID: 3301066974516140480}
   Camera: {fileID: 2804989825469816144}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &2404845363277405835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658368054554533819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1206ab305a2c124ba4838f68774a9ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &8903198019839888356
 GameObject:
   m_ObjectHideFlags: 0

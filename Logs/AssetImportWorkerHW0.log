@@ -29085,3 +29085,685 @@ Memory consumption went from 365.1 MB to 359.1 MB.
 Total: 13.183600 ms (FindLiveObjects: 1.055900 ms CreateObjectMapping: 0.345000 ms MarkObjects: 9.606700 ms  DeleteObjects: 1.848900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (6.1 MB). Loaded Objects now: 7740.
+Memory consumption went from 365.3 MB to 359.2 MB.
+Total: 15.292600 ms (FindLiveObjects: 0.872300 ms CreateObjectMapping: 0.297700 ms MarkObjects: 11.927600 ms  DeleteObjects: 1.863000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:29:59.9013912Z
+  Time since last request: 731.29913899999997 seconds.
+  importAddress: GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Pefabs/Player.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Pefabs/Player.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bdf3013a96716614d90ff149ed83777d' -> (Import Result ID: '14694a852432f8a3e8a7046ce9f170d8') in 0.196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa5696bbcfab9ef43114aa6c804cec5b DependenciesID=6e89f75339f73203dc08081d9dc235ab StaticDependenciesID=69d45ad839871212958a02917c6ca6ab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (6.1 MB). Loaded Objects now: 7740.
+Memory consumption went from 365.5 MB to 359.4 MB.
+Total: 15.412800 ms (FindLiveObjects: 0.894800 ms CreateObjectMapping: 0.279600 ms MarkObjects: 12.075600 ms  DeleteObjects: 1.847700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:18.8228633Z
+  Time since last request: 198.71185080000001 seconds.
+  importAddress: GUID: 78a08787ca30045abb69f6f7dd878e09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat - Importer: PreviewImporter
+Importing 'GUID: 78a08787ca30045abb69f6f7dd878e09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 78a08787ca30045abb69f6f7dd878e09' -> (Import Result ID: '7d43a309282c8b05d1bf1c5df91a46e0') in 1.202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f02a4aa41dad1a8082cd53b0ef7aa323 DependenciesID=f573df6b53075a24441f20d273b96fff StaticDependenciesID=0e64bb070480ee223f646431f86b3bd8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:20.0398634Z
+  Time since last request: 0.0012616 seconds.
+  importAddress: GUID: b51db210fe78df745a372851b3db949e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat - Importer: PreviewImporter
+Importing 'GUID: b51db210fe78df745a372851b3db949e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b51db210fe78df745a372851b3db949e' -> (Import Result ID: '63c764dd9cd784d09ed5fdd1acdb8e3d') in 0.292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9d97cf75954d8f7c7d40b3e5ebcb2de DependenciesID=fed7c64b01bb4a107348ef339a5be6e1 StaticDependenciesID=d46efb677545bbc6272b2ab27ad6d878 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:20.37374Z
+  Time since last request: 0.0289546 seconds.
+  importAddress: GUID: 15d0c3709176029428a0da2f8cecf0b5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat - Importer: PreviewImporter
+Importing 'GUID: 15d0c3709176029428a0da2f8cecf0b5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15d0c3709176029428a0da2f8cecf0b5' -> (Import Result ID: 'f5a179ae89a11c4c803846ab51feb5e8') in 0.189 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=237fd6c931d9f961c02212f7c7cd7ec0 DependenciesID=4024beb3ecf69a06d8aa9c9918d1009b StaticDependenciesID=7182571488c543bf424664751821f487 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:20.5757079Z
+  Time since last request: 0.0011117 seconds.
+  importAddress: GUID: a97c105638bdf8b4a8650670310a4cd3 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat - Importer: PreviewImporter
+Importing 'GUID: a97c105638bdf8b4a8650670310a4cd3 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a97c105638bdf8b4a8650670310a4cd3' -> (Import Result ID: '36adde68e8216f496809a8de3f5832c3') in 0.158 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c41a7e403ac8305c88b635818c3596db DependenciesID=fbf059a64c7cd1118674798b61080965 StaticDependenciesID=370a142942de7513da01291afb6ecdd4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:20.7467176Z
+  Time since last request: 0.0011464 seconds.
+  importAddress: GUID: 594ea882c5a793440b60ff72d896021e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat - Importer: PreviewImporter
+Importing 'GUID: 594ea882c5a793440b60ff72d896021e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 594ea882c5a793440b60ff72d896021e' -> (Import Result ID: '777aca70e60066dbcbd91fc374bf37e5') in 5.184 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=229a87a0aa60a59a27d43e68535a0ca1 DependenciesID=0d4cd3166383009913eaee29c42111c3 StaticDependenciesID=f2f63c287d1672296332c996f19af34d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:25.9458059Z
+  Time since last request: 0.003361 seconds.
+  importAddress: GUID: c2e40fa84d53ccd428f640eac126b1fb - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Gold.mat - Importer: PreviewImporter
+Importing 'GUID: c2e40fa84d53ccd428f640eac126b1fb - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Gold.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c2e40fa84d53ccd428f640eac126b1fb' -> (Import Result ID: '80f1d6132d167504ce4603672dd9a45b') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d30dc90af1bb531a511e1b43ecb4c5cb DependenciesID=d5d45e9f4686333a3aacb6d17e8d76c2 StaticDependenciesID=cb140b0c28ae65d51542901b687db667 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:25.9691241Z
+  Time since last request: 0.0008524 seconds.
+  importAddress: GUID: 5a4a765e921b8554eb959f7cf697b3be - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/UGUI Canvas Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 5a4a765e921b8554eb959f7cf697b3be - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/UGUI Canvas Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a4a765e921b8554eb959f7cf697b3be' -> (Import Result ID: '427befb5b73f4cd49d3204a7e22f3920') in 0.362 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=871fdc7169a51e81fb4de63f1574c3db DependenciesID=e900555ea1f934445abf7db007fc33b4 StaticDependenciesID=911c73a1d12fdc3e7a1b513bd74bf912 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:26.3467844Z
+  Time since last request: 0.00279 seconds.
+  importAddress: GUID: 9920c1f1781549a46ba081a2a15a16ec - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9920c1f1781549a46ba081a2a15a16ec - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9920c1f1781549a46ba081a2a15a16ec' -> (Import Result ID: 'bf1676b396dd49829f6de0a6cedd5e92') in 5.240 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c54ba1296a139bfb6028e1ae61b97695 DependenciesID=baa7bb6139d2ea30997579bc9c3ab55c StaticDependenciesID=c00b2d27ca3cdb63d2af335cd38a2ded 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:31.6042653Z
+  Time since last request: 0.0015049 seconds.
+  importAddress: GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a2407126e3372f64cacb75ed466a5621' -> (Import Result ID: 'dc6b1305707a3df7154eabcc57276693') in 5.087 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb53b2ba03a7f0936672ef65f6855a7e DependenciesID=b8a4a48cd1b9a53ffeb1fbe71cd707b1 StaticDependenciesID=a4d688839a4ccd5d9c6aeb26b03c31de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:36.7058474Z
+  Time since last request: 0.0011046 seconds.
+  importAddress: GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39144937a5efe954dac51acbbe54157e' -> (Import Result ID: '8a83b0df50f81dd8fd74dfbb37dcb9b9') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcb5eb1c635765ab92637f9f0fba8903 DependenciesID=032fdeebac210c24d657ad9542781ace StaticDependenciesID=aa0c5b7400b243999422c6e375fb8b4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:36.7329677Z
+  Time since last request: 0.0013914 seconds.
+  importAddress: GUID: f33991274cb50c047b101035d76c934e - Path: Assets/AngeloMaN87/Prototype Map/Materials/PrototypeMap.mat - Importer: PreviewImporter
+Importing 'GUID: f33991274cb50c047b101035d76c934e - Path: Assets/AngeloMaN87/Prototype Map/Materials/PrototypeMap.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f33991274cb50c047b101035d76c934e' -> (Import Result ID: '4b99e9d4f3befb56324b5442d446428b') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff6f1968760f8a415f6fc40ff58a6206 DependenciesID=5889c00995c25921ea7726ee96422157 StaticDependenciesID=4ea316ed9233be66696dcb067ad4d20f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:36.7669367Z
+  Time since last request: 0.0012056 seconds.
+  importAddress: GUID: 44245ab89240f51459a5077d7145c452 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 44245ab89240f51459a5077d7145c452 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 44245ab89240f51459a5077d7145c452' -> (Import Result ID: '6cfeef8e5a0da64be23af1338ac4c271') in 5.145 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f55af58d73055a90257421e127dcaf8 DependenciesID=01cd6803e76d4ddbe2fa5dc67900b586 StaticDependenciesID=4d5921f9766a055955d348435123efc0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:41.9628907Z
+  Time since last request: 0.0357005 seconds.
+  importAddress: GUID: 4f1ef37ae953c484bbc5d5e4049147e5 - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Black.mat - Importer: PreviewImporter
+Importing 'GUID: 4f1ef37ae953c484bbc5d5e4049147e5 - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Black.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4f1ef37ae953c484bbc5d5e4049147e5' -> (Import Result ID: '4b29483583cd7d03a04744f3fe10a10a') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2093c416a56f508af8366c9e5dc32aad DependenciesID=0344d112630c09cf81a623331cd888b0 StaticDependenciesID=c20be6589341a6dbfcb6352369e816e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:41.9960438Z
+  Time since last request: 0.000715 seconds.
+  importAddress: GUID: def488a52add6574d9f295a507032cb8 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Terrain Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: def488a52add6574d9f295a507032cb8 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Terrain Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: def488a52add6574d9f295a507032cb8' -> (Import Result ID: '76b64be0dd6679b8929de9b8375f7b86') in 5.546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb02a79e966d98ea36f459ef919049be DependenciesID=e487a2a5bb010f038d8c63611c5d8bba StaticDependenciesID=1a8eeb76a29f3984d781edf69690eced 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:47.5616824Z
+  Time since last request: 0.0013116 seconds.
+  importAddress: GUID: dfb97a9307a577a41bcacba34b9a7e32 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: dfb97a9307a577a41bcacba34b9a7e32 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dfb97a9307a577a41bcacba34b9a7e32' -> (Import Result ID: '5a42057b1736b071edd13dd7f4515a9f') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff49d515a844112110d08707745ac386 DependenciesID=e728cc054b4d53ed0fd1491cdd3d369f StaticDependenciesID=f583012bf46f2ceb6ba06b7435732e6d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:47.6334285Z
+  Time since last request: 0.0000264 seconds.
+  importAddress: GUID: 24a73dccd7b6fad4798be282f96a21f4 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 24a73dccd7b6fad4798be282f96a21f4 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 24a73dccd7b6fad4798be282f96a21f4' -> (Import Result ID: 'e8eaf1a29cda5178e791ec1beab19dab') in 0.244 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdfc5c5744c046e25256c48814b5577c DependenciesID=e52527c5324021d910e18f54c2fa301f StaticDependenciesID=1f1296a79334a0da0159e543b000c5e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:47.8952648Z
+  Time since last request: 0.0003776 seconds.
+  importAddress: GUID: c839255fc8f6b4b4d90bf8c1af9f9bd1 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf - Importer: PreviewImporter
+Importing 'GUID: c839255fc8f6b4b4d90bf8c1af9f9bd1 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c839255fc8f6b4b4d90bf8c1af9f9bd1' -> (Import Result ID: '1c2ca52d4a3a5f7393b950fdadfadf42') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82ed3dcb0ca5d331fc8b1151df7cb35c DependenciesID=62a4d1dd3381f87117c8014f660bd58f StaticDependenciesID=090f08ae678d5dd6e871ffb14a26b8f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:47.9253853Z
+  Time since last request: 0.0013517 seconds.
+  importAddress: GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc3def193b270c649b041063a70a1a1f' -> (Import Result ID: '8866a843b0779c60431c571a59b36914') in 5.406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9565390ad41f6282f92f4be580d07f62 DependenciesID=103c00ce9809b8d309a9c31ba5e9c44c StaticDependenciesID=fb831a35606becb6dbbf7e992d9efd43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:53.3500645Z
+  Time since last request: 0.0016027 seconds.
+  importAddress: GUID: 3750c318f40cab44a97d3a81beaefeb3 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf - Importer: PreviewImporter
+Importing 'GUID: 3750c318f40cab44a97d3a81beaefeb3 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3750c318f40cab44a97d3a81beaefeb3' -> (Import Result ID: 'c9e761ad6f5a501ac578d26790623cb8') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8232347dee368e154f2780316ac4d4f DependenciesID=aa1044919378381708e9273b2b64414e StaticDependenciesID=934e95a99595af714149e87c57fd9b5c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:53.3781195Z
+  Time since last request: 0.0007648 seconds.
+  importAddress: GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce' -> (Import Result ID: '886974ec4202e62cfd61d3f3271c7a55') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22cac67e4b13489eb351f59da76a1027 DependenciesID=be161bd8707923805a23a4ff5232c45b StaticDependenciesID=0f9c2336df4e946e1e9e288063b8ecd5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:53.4038308Z
+  Time since last request: 0.0006656 seconds.
+  importAddress: GUID: 9229ae5dbc38f488d921156ff75869e9 - Path: Packages/com.unity.collab-proxy/Editor/Assets/Fonts/Cascadia.ttf - Importer: PreviewImporter
+Importing 'GUID: 9229ae5dbc38f488d921156ff75869e9 - Path: Packages/com.unity.collab-proxy/Editor/Assets/Fonts/Cascadia.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9229ae5dbc38f488d921156ff75869e9' -> (Import Result ID: '017df13a4a5e24e18e71d057cb84079e') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df0f449af45b0edfe4c72775e7a0b588 DependenciesID=5f3bfd7eec8e5b68a5370690b07820d3 StaticDependenciesID=7613f2c394dff708cc3960afb1d6fe22 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:33:53.4317009Z
+  Time since last request: 0.0007202 seconds.
+  importAddress: GUID: a680d9a9f8b66514abbfd3ae1c8f77f7 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/2_Particle Lit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: a680d9a9f8b66514abbfd3ae1c8f77f7 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/2_Particle Lit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a680d9a9f8b66514abbfd3ae1c8f77f7' -> (Import Result ID: 'e81af9a04b2c2b4aef1050d22b20a792') in 4.217 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d804654c5ec1dec773973241363fa973 DependenciesID=f130e37f22059e177b15b8420dcdcfc7 StaticDependenciesID=597a33db9af23aae5f2ecc1d2a58e047 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7744.
+Memory consumption went from 365.3 MB to 359.2 MB.
+Total: 14.447600 ms (FindLiveObjects: 0.857600 ms CreateObjectMapping: 0.270300 ms MarkObjects: 11.135000 ms  DeleteObjects: 1.851400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:56:13.0843278Z
+  Time since last request: 1335.41985769999997 seconds.
+  importAddress: GUID: d843296f75721a74080cf1ae3afed9d8 - Path: Assets/AngeloMaN87/Prototype Map/Textures/PrototypeMap_Grey.png - Importer: PreviewImporter
+Importing 'GUID: d843296f75721a74080cf1ae3afed9d8 - Path: Assets/AngeloMaN87/Prototype Map/Textures/PrototypeMap_Grey.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d843296f75721a74080cf1ae3afed9d8' -> (Import Result ID: '3a066c51105af3b1d98f6fdbc3ac7fe4') in 0.202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b7f3694452ef3f5dd82f25ee5826bd3 DependenciesID=d1fb47f1a8214c312db05a69ce597d9f StaticDependenciesID=ff001635acec07c180eefb6fa6725f3b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7753.
+Memory consumption went from 368.6 MB to 362.5 MB.
+Total: 14.079700 ms (FindLiveObjects: 0.946900 ms CreateObjectMapping: 0.416300 ms MarkObjects: 10.422400 ms  DeleteObjects: 1.951400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T06:59:15.3565195Z
+  Time since last request: 182.05579309999999 seconds.
+  importAddress: GUID: b9e8e2fc0724d5941ad454b0ddf9d947 - Path: Assets/AngeloMaN87/Prototype Map/Materials/PrototypeMap_Obstacles.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b9e8e2fc0724d5941ad454b0ddf9d947 - Path: Assets/AngeloMaN87/Prototype Map/Materials/PrototypeMap_Obstacles.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b9e8e2fc0724d5941ad454b0ddf9d947' -> (Import Result ID: '5a6c186f9ea0ba8e0b81e6963c4fb330') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a986fc66362442cf30ae07f3b1cfde8b DependenciesID=e898c987b9294bf95f899afba2970b3e StaticDependenciesID=407b5a1be956c2d6db9aeb96ea0811aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7753.
+Memory consumption went from 368.7 MB to 362.6 MB.
+Total: 14.023200 ms (FindLiveObjects: 0.927500 ms CreateObjectMapping: 0.349800 ms MarkObjects: 10.447300 ms  DeleteObjects: 1.957500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:03:11.4705449Z
+  Time since last request: 236.07843170000001 seconds.
+  importAddress: GUID: b3770ece1a2009649b816b365c9a50cd - Path: Assets/Materials/New Shader Graph.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b3770ece1a2009649b816b365c9a50cd - Path: Assets/Materials/New Shader Graph.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b3770ece1a2009649b816b365c9a50cd' -> (Import Result ID: 'a39e480a671eeb0088d2c884c061af55') in 0.194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b612ce62fae8593ee9d08bed9a43001 DependenciesID=351cfde02cbcdc9a6fc112b4c2306c52 StaticDependenciesID=e4ea20e4067e66081d3eab46c002b429 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:05:01.0516271Z
+  Time since last request: 109.3670527 seconds.
+  importAddress: GUID: b3770ece1a2009649b816b365c9a50cd - Path: Assets/Materials/New Shader Graph.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b3770ece1a2009649b816b365c9a50cd - Path: Assets/Materials/New Shader Graph.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b3770ece1a2009649b816b365c9a50cd' -> (Import Result ID: '83b7fc71d9b45ac91386eafdd77feec6') in 0.204 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69a4dfa08142b4746c253d2d00d8f664 DependenciesID=f2ff2ce2eae1f6f2d077cf8d7b720b76 StaticDependenciesID=59c39be1a9cb9d7ee58c700b0173d091 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7753.
+Memory consumption went from 368.3 MB to 362.3 MB.
+Total: 15.769500 ms (FindLiveObjects: 0.957100 ms CreateObjectMapping: 0.334900 ms MarkObjects: 11.875000 ms  DeleteObjects: 2.270200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:06:35.8502056Z
+  Time since last request: 94.5722256 seconds.
+  importAddress: GUID: 70f1a6806dc50934eb7c7dee0d070b60 - Path: Assets/Materials/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 70f1a6806dc50934eb7c7dee0d070b60 - Path: Assets/Materials/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 70f1a6806dc50934eb7c7dee0d070b60' -> (Import Result ID: '1e1506c81cd3ccdff6c134b90b67dcfc') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=245d669c32e99f9bf36faa927312f0e7 DependenciesID=d80d2372943e93fe32a8b69668ff08e6 StaticDependenciesID=e438294206b4eb4d77fa25b1e44cd785 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7753.
+Memory consumption went from 368.7 MB to 362.6 MB.
+Total: 15.986600 ms (FindLiveObjects: 1.098100 ms CreateObjectMapping: 0.434800 ms MarkObjects: 11.562700 ms  DeleteObjects: 2.474800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7753.
+Memory consumption went from 369.1 MB to 363.1 MB.
+Total: 14.224500 ms (FindLiveObjects: 0.951800 ms CreateObjectMapping: 0.371100 ms MarkObjects: 10.557400 ms  DeleteObjects: 1.998400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7753.
+Memory consumption went from 369.6 MB to 363.6 MB.
+Total: 22.758800 ms (FindLiveObjects: 0.916600 ms CreateObjectMapping: 0.380000 ms MarkObjects: 17.736700 ms  DeleteObjects: 2.370000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:07:52.1715424Z
+  Time since last request: 76.30248570000001 seconds.
+  importAddress: GUID: 4296b96e6652af840ab766c25a511104 - Path: Assets/Materials/PrototypeMap_Grey.png - Importer: PreviewImporter
+Importing 'GUID: 4296b96e6652af840ab766c25a511104 - Path: Assets/Materials/PrototypeMap_Grey.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4296b96e6652af840ab766c25a511104' -> (Import Result ID: '5fa62e8f61b4f853f7961f760c530cf3') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eced094ab186e41a5f88096a208c6645 DependenciesID=5a850e1c36ab9ca3be2c201ac9ffd5e0 StaticDependenciesID=ab9c1ef0c6ff9ef10dd8d24b44bfa2c3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7755.
+Memory consumption went from 368.3 MB to 362.3 MB.
+Total: 17.216100 ms (FindLiveObjects: 0.919600 ms CreateObjectMapping: 0.370600 ms MarkObjects: 13.567500 ms  DeleteObjects: 2.022000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7755.
+Memory consumption went from 368.8 MB to 362.7 MB.
+Total: 13.384000 ms (FindLiveObjects: 0.836900 ms CreateObjectMapping: 0.321300 ms MarkObjects: 10.030300 ms  DeleteObjects: 1.877200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7755.
+Memory consumption went from 369.2 MB to 363.2 MB.
+Total: 14.922500 ms (FindLiveObjects: 0.960700 ms CreateObjectMapping: 0.364300 ms MarkObjects: 11.301200 ms  DeleteObjects: 1.976100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:11:32.5890364Z
+  Time since last request: 220.373794 seconds.
+  importAddress: GUID: 6386b701ece82bd4995bfa213b085f11 - Path: Assets/Materials/New Material 3.mat - Importer: PreviewImporter
+Importing 'GUID: 6386b701ece82bd4995bfa213b085f11 - Path: Assets/Materials/New Material 3.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6386b701ece82bd4995bfa213b085f11' -> (Import Result ID: '41432222316fd895390b88dc5827acb1') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77f6a59de0a9dbc6bb271d302e3ccaac DependenciesID=a29a337368a16cc2da6d5087e5cd4d4a StaticDependenciesID=f75db51cefab035d65ce42bba4193e9a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:13:18.7385806Z
+  Time since last request: 106.1181337 seconds.
+  importAddress: GUID: 9e1c97fc44f9a8744b61b58f72c56de4 - Path: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx - Importer: PreviewImporter
+Importing 'GUID: 9e1c97fc44f9a8744b61b58f72c56de4 - Path: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9e1c97fc44f9a8744b61b58f72c56de4' -> (Import Result ID: 'ea6c7b9d986f60cab108bf549e7918e2') in 0.685 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6e9927dd150f5bcc07af207f49958e4 DependenciesID=c2491fd350003199cff6f903b7a38913 StaticDependenciesID=dbaacc446202c0edc2ddccbd8b959677 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7759.
+Memory consumption went from 369.2 MB to 363.2 MB.
+Total: 24.054900 ms (FindLiveObjects: 1.026100 ms CreateObjectMapping: 0.372400 ms MarkObjects: 20.129000 ms  DeleteObjects: 2.114600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:20:16.1069064Z
+  Time since last request: 416.6653541 seconds.
+  importAddress: GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: PreviewImporter
+Importing 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20' -> (Import Result ID: '856d8eec3262efdc95f00258525e109a') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=133c6b157a59583e7c38178247f1cbef DependenciesID=8e463314e34380aaffffe8e67238379c StaticDependenciesID=978a09a6082f2956980b8f765e8ea9e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:20:16.1347923Z
+  Time since last request: 0.0008313 seconds.
+  importAddress: GUID: 6386b701ece82bd4995bfa213b085f11 - Path: Assets/Materials/New Material 3.mat - Importer: PreviewImporter
+Importing 'GUID: 6386b701ece82bd4995bfa213b085f11 - Path: Assets/Materials/New Material 3.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6386b701ece82bd4995bfa213b085f11' -> (Import Result ID: '6c413f126786af75c689d8644b8edefd') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9aded9e619d08deb118b07a5377202e9 DependenciesID=ae9daad3d333646c795ca280d8cfad61 StaticDependenciesID=c65b5afc67bbfc8d44b59dec3f830ee5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:20:16.9900984Z
+  Time since last request: 0.8286536 seconds.
+  importAddress: GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20' -> (Import Result ID: 'b72528a01845fb04ecac063de48721e5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff6381178f1a7a8ad230a63ce6912c07 DependenciesID=197b3bde241dc70419dabf93b8f69d37 StaticDependenciesID=9bbf1872e15c4c231cf5f4cd0ae48e09 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7759.
+Memory consumption went from 369.3 MB to 363.2 MB.
+Total: 15.830700 ms (FindLiveObjects: 1.028200 ms CreateObjectMapping: 0.499500 ms MarkObjects: 12.033200 ms  DeleteObjects: 1.939500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:27.260347Z
+  Time since last request: 190.25171639999999 seconds.
+  importAddress: GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: PreviewImporter
+Importing 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20' -> (Import Result ID: 'bd8fa705cf98ee0556d3875b874c8c60') in 3.132 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e03b6b632c80f13bb29201c7d7ce53e2 DependenciesID=818cee6b279675bf3c0e8af35dce941d StaticDependenciesID=43205c669aa3bc615db3ec934fe1143e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:36.53383Z
+  Time since last request: 6.1262686 seconds.
+  importAddress: GUID: c0cfa846b033b0c4c9c81856f53a734b - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_basecolor.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c0cfa846b033b0c4c9c81856f53a734b - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_basecolor.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c0cfa846b033b0c4c9c81856f53a734b' -> (Import Result ID: 'ddb58f9704ac7e84f11d5bae3d2d9655') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13bf6513e31a8e19e576d5f1a689a578 DependenciesID=0acaf35fccae361d9e42970ff2eeceb9 StaticDependenciesID=44c0c9f2e5b6ea32510e3c396990b73f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:36.5585226Z
+  Time since last request: 0.0003674 seconds.
+  importAddress: GUID: 196a83e4fac7a644ebc189706f6c2082 - Path: Assets/Stylized Lava Materials/Lava01/M_Lava01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 196a83e4fac7a644ebc189706f6c2082 - Path: Assets/Stylized Lava Materials/Lava01/M_Lava01.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 196a83e4fac7a644ebc189706f6c2082' -> (Import Result ID: '787be7333fb16a5ed7bd2c22874746dd') in 1.082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=405649f9e26321ac379a2009259ac40d DependenciesID=fc901f5aff93a8e14545d16cc2784e8d StaticDependenciesID=c4e4c636e0596df3f7f89c0198b0fdcf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.6586575Z
+  Time since last request: 0.0002245 seconds.
+  importAddress: GUID: 87e60f60a1c94754780876b2c361f945 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 87e60f60a1c94754780876b2c361f945 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 87e60f60a1c94754780876b2c361f945' -> (Import Result ID: '69a36672dba966c7f13ca0636714f14d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b06278f62154be3e33786b8bf6ab4b6 DependenciesID=d961641e78f2155d487ffe1b62a94464 StaticDependenciesID=c18720c523779d39cb9ab8960f804edd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.6913606Z
+  Time since last request: 0.0003409 seconds.
+  importAddress: GUID: 9be07e88bf304ab4b8ec2efeab744e75 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9be07e88bf304ab4b8ec2efeab744e75 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9be07e88bf304ab4b8ec2efeab744e75' -> (Import Result ID: '979db68c6c11989eb5b18cf55a9b0cbc') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d2f2c4bc61f2a7e96ca8177b0db0d96 DependenciesID=eb63df33a55d543081dddf6f05ad61c2 StaticDependenciesID=0dbd72b5aa4fefdd449f89146abb270d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.7195689Z
+  Time since last request: 0.0003867 seconds.
+  importAddress: GUID: 299166cc9328e484ba27f7c6c60bcc79 - Path: Assets/Stylized Lava Materials/Lava03/M_Lava03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 299166cc9328e484ba27f7c6c60bcc79 - Path: Assets/Stylized Lava Materials/Lava03/M_Lava03.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 299166cc9328e484ba27f7c6c60bcc79' -> (Import Result ID: '29a7d4d1b8ef126f80af4c568591fe61') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b168cf21bf772204d02902d12a2894b DependenciesID=dda4b56c0f2ac83b7199831c5ea00705 StaticDependenciesID=c9f1519b39cc58cddda9012066eabab6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.7641304Z
+  Time since last request: 0.0002911 seconds.
+  importAddress: GUID: a33cf7e1fa3e43149898e2f4762ad1b9 - Path: Assets/Stylized Lava Materials/Lava05/T_Lava0_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a33cf7e1fa3e43149898e2f4762ad1b9 - Path: Assets/Stylized Lava Materials/Lava05/T_Lava0_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a33cf7e1fa3e43149898e2f4762ad1b9' -> (Import Result ID: 'd5453776654a233c83b9dc5cd3b1a48e') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6f7c41501c4b887d02d8dd1d13f61f7 DependenciesID=30310aff43745910fc9c96837b7d6ac9 StaticDependenciesID=eb62f288a212db7ac125c68bee7ca835 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.7941686Z
+  Time since last request: 0.0002944 seconds.
+  importAddress: GUID: b45c16963ac761d4cac39a870f8efe1d - Path: Assets/Stylized Lava Materials/Lava03/T_Lava03_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b45c16963ac761d4cac39a870f8efe1d - Path: Assets/Stylized Lava Materials/Lava03/T_Lava03_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b45c16963ac761d4cac39a870f8efe1d' -> (Import Result ID: '925421df6ae14964d9fe831eda748e7a') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4c4afae9eacf353d1e9b3474a5cfa0d DependenciesID=2bb010cef7f75ced9506f9903011040c StaticDependenciesID=2cc6674eb4d0917d43203c116fd29782 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.823302Z
+  Time since last request: 0.0004935 seconds.
+  importAddress: GUID: fa603172adc08c9439ceeae3cbc9bfd3 - Path: Assets/Stylized Lava Materials/Lava01 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa603172adc08c9439ceeae3cbc9bfd3 - Path: Assets/Stylized Lava Materials/Lava01 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa603172adc08c9439ceeae3cbc9bfd3' -> (Import Result ID: 'c897666d46527ee6a2fac51883a56380') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b31fd1ff6753112cd0cec8ba49eee49b DependenciesID=d86a7b0226b292a85529b3e9addceeb3 StaticDependenciesID=7a30118500bfe9229ef8f5251d2932d1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.8420534Z
+  Time since last request: 0.0003564 seconds.
+  importAddress: GUID: 9a526ccb9696d6545b3991e93bfb18bd - Path: Assets/Stylized Lava Materials/Lava02/M_Lava02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9a526ccb9696d6545b3991e93bfb18bd - Path: Assets/Stylized Lava Materials/Lava02/M_Lava02.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9a526ccb9696d6545b3991e93bfb18bd' -> (Import Result ID: 'ee2e776c87b6fcfa2ef4cf285ab843be') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=36c889d79e50a6f56b56551306da82cc DependenciesID=801b4177d986ae2632c9e75427b28815 StaticDependenciesID=afaf75e6facbfc42b3d35b2bd80a695a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.8920553Z
+  Time since last request: 0.0002083 seconds.
+  importAddress: GUID: c8a685e066a200d4f9f1c49279c41617 - Path: Assets/Stylized Lava Materials/Lava05/T_Lava0_height.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c8a685e066a200d4f9f1c49279c41617 - Path: Assets/Stylized Lava Materials/Lava05/T_Lava0_height.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c8a685e066a200d4f9f1c49279c41617' -> (Import Result ID: 'c6c5b66c77d73e229aeb40ad3be9e842') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b7ebc4f77cd5333d11e1f1518c7ee8f DependenciesID=c764f2af6f35977196e46bed492f6612 StaticDependenciesID=81675c6440461c0385ff39c62b3c5f13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.9223245Z
+  Time since last request: 0.0002803 seconds.
+  importAddress: GUID: 1b0eddcd97673004da417fffdd79781b - Path: Assets/Stylized Lava Materials/Lava04/T_Lava04_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1b0eddcd97673004da417fffdd79781b - Path: Assets/Stylized Lava Materials/Lava04/T_Lava04_metallic.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1b0eddcd97673004da417fffdd79781b' -> (Import Result ID: 'f49460807dfd545d265a9e624029e2e4') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b86b763023f7f3865b86437c9e5a245 DependenciesID=ab8402d121f9d4b735bf683272637574 StaticDependenciesID=9356629350afb688fed7a7d102edd83d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.9462464Z
+  Time since last request: 0.0003414 seconds.
+  importAddress: GUID: 7385f77603e598042988b50728804452 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_ao.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7385f77603e598042988b50728804452 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_ao.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7385f77603e598042988b50728804452' -> (Import Result ID: 'f5f52cc7eb96516a38eab23cbe3afaa8') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a268369168333daf6182f5539c4b1ea DependenciesID=94108dfc3fe84df3e9185e62fe1484d6 StaticDependenciesID=b47e81749572a02b3c2c3cb3d5480978 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:37.9734795Z
+  Time since last request: 0.0003425 seconds.
+  importAddress: GUID: 82e1f644fb8e5504393566f67abc8f19 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_emissive.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 82e1f644fb8e5504393566f67abc8f19 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_emissive.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 82e1f644fb8e5504393566f67abc8f19' -> (Import Result ID: '442ca3785b0eb0bde4b8875d1503fb97') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef9b8d2033e8efaff3f98c560362adbb DependenciesID=88c7058883ca4249451ee3b5853ac157 StaticDependenciesID=9da1b8b073c39bf55ca937bdfd691133 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:38.0231235Z
+  Time since last request: 0.00027 seconds.
+  importAddress: GUID: 71610f3bc62fcfc4bb04f413e778e1d3 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 71610f3bc62fcfc4bb04f413e778e1d3 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 71610f3bc62fcfc4bb04f413e778e1d3' -> (Import Result ID: '3a814da7004c520ab86111853e3ed60a') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70fde5059d8087d140a52c9a9ecc83e5 DependenciesID=1448e5b40472067dce3fcbcec0425971 StaticDependenciesID=03ca2e1684b001dba83b76778cd9c2a1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:38.0471431Z
+  Time since last request: 0.0003781 seconds.
+  importAddress: GUID: ac6b59675e338924389ec0c26567ee73 - Path: Assets/Stylized Lava Materials/Lava04 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac6b59675e338924389ec0c26567ee73 - Path: Assets/Stylized Lava Materials/Lava04 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac6b59675e338924389ec0c26567ee73' -> (Import Result ID: 'd5c9935bd974008141601bfbd741edad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=183ccbd6f1f5c8f80d4a3957509cc971 DependenciesID=4fb5f4b41a929ad49458ec05170ba09d StaticDependenciesID=8e909386c3f55108cfd30bae75fbe71e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:38.0645946Z
+  Time since last request: 0.00036 seconds.
+  importAddress: GUID: ebe988e0fae69904da7059b5c9f618c9 - Path: Assets/Stylized Lava Materials/Lava03/T_Lava03_height.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ebe988e0fae69904da7059b5c9f618c9 - Path: Assets/Stylized Lava Materials/Lava03/T_Lava03_height.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ebe988e0fae69904da7059b5c9f618c9' -> (Import Result ID: 'c8e666c6aa7465127d6d5e2a8d8f0900') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f76b15b7a1395eaed9488bbcb26488b0 DependenciesID=0bdd50689ad2a48c3a7c5d10c8611708 StaticDependenciesID=eb5f33f460e4027cf9c5cd8b9babb128 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:38.0868996Z
+  Time since last request: 0.0003189 seconds.
+  importAddress: GUID: 37a25a87eea4c3949a280b19020afdba - Path: Assets/Stylized Lava Materials/Lava03 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 37a25a87eea4c3949a280b19020afdba - Path: Assets/Stylized Lava Materials/Lava03 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 37a25a87eea4c3949a280b19020afdba' -> (Import Result ID: '7b66ae79d880f1e734718e358176de37') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74dd0fc3264a1b12344203b159c7be04 DependenciesID=164df9b5d91221716d6b4790ce54174d StaticDependenciesID=9f2b37bf9d188d8f3546712816016a2d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:38.1060097Z
+  Time since last request: 0.0004119 seconds.
+  importAddress: GUID: 5e1b3fdd9823e0849bd594e8c5f87f08 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_emissive.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5e1b3fdd9823e0849bd594e8c5f87f08 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_emissive.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5e1b3fdd9823e0849bd594e8c5f87f08' -> (Import Result ID: '191cf01cbbccaca18dbdc804cf508f05') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71dcfdea512f596a4967eeba9cc46c02 DependenciesID=ccbafe15bafcc76a8687d3eccbf508ef StaticDependenciesID=e66df412b54e3e76237f608a3486c5b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:55.6589272Z
+  Time since last request: 17.5300181 seconds.
+  importAddress: GUID: 7385f77603e598042988b50728804452 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_ao.png - Importer: PreviewImporter
+Importing 'GUID: 7385f77603e598042988b50728804452 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_ao.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7385f77603e598042988b50728804452' -> (Import Result ID: 'a6c553c941623e8db063ccb55912da47') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e4ce84d1802c77cf4268a208cd99eaa DependenciesID=640aa20b88db2588f80c7c9cd7eb174e StaticDependenciesID=be8f10420a7d3eacdaed639da478188d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:55.6826684Z
+  Time since last request: 0.000377 seconds.
+  importAddress: GUID: d11561a80694bd64f9b27f8577d16fbf - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_basecolor.png - Importer: PreviewImporter
+Importing 'GUID: d11561a80694bd64f9b27f8577d16fbf - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_basecolor.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d11561a80694bd64f9b27f8577d16fbf' -> (Import Result ID: '7dcc5fb604339d370550fc7641ec4d52') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5fad9e79cb9be01d88b6769d1e5ce47 DependenciesID=a6989d15355fb5b7636a84fcc92bbb34 StaticDependenciesID=2f09a621cc6cb010a94849a494552da0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:55.7170951Z
+  Time since last request: 0.0101073 seconds.
+  importAddress: GUID: 680e77cf49a6fae4dbb07ba51303bb6f - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_normal.png - Importer: PreviewImporter
+Importing 'GUID: 680e77cf49a6fae4dbb07ba51303bb6f - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_normal.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 680e77cf49a6fae4dbb07ba51303bb6f' -> (Import Result ID: '8a8434bd901969b9b781d0c3f9d42ad6') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f44d4b6866ccb0ff8059729c2b6acd3c DependenciesID=f6af3e71054f9f7153b137f93078a145 StaticDependenciesID=0e976fa75685cfa3611e508b26a11149 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:55.7438573Z
+  Time since last request: 0.0003658 seconds.
+  importAddress: GUID: 36c47b94cf58c1946b7412fa62d86076 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_height.png - Importer: PreviewImporter
+Importing 'GUID: 36c47b94cf58c1946b7412fa62d86076 - Path: Assets/Stylized Lava Materials/Lava01/T_Lava01_height.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 36c47b94cf58c1946b7412fa62d86076' -> (Import Result ID: '67ab62fa5610d5235255788bd72976bd') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea5df89d7fd4bc7517e2bdec1e08ad29 DependenciesID=b6fc66390d70422747813e6eba0c3ed4 StaticDependenciesID=173949d75b99b510ff03b09316b1f92e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:58.7615694Z
+  Time since last request: 2.9954779 seconds.
+  importAddress: GUID: 5e1b3fdd9823e0849bd594e8c5f87f08 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_emissive.png - Importer: PreviewImporter
+Importing 'GUID: 5e1b3fdd9823e0849bd594e8c5f87f08 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_emissive.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5e1b3fdd9823e0849bd594e8c5f87f08' -> (Import Result ID: '65e2484e0e0d8186a2fd9d2c0b0cadb2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a8616c927ce9a5da0cde097b7c28f5b DependenciesID=5060a2aede436470189329ec6c91c8a2 StaticDependenciesID=cb7a2f93657da7d651030b85e81e30ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T07:23:58.8078903Z
+  Time since last request: 0.0115483 seconds.
+  importAddress: GUID: 71610f3bc62fcfc4bb04f413e778e1d3 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_normal.png - Importer: PreviewImporter
+Importing 'GUID: 71610f3bc62fcfc4bb04f413e778e1d3 - Path: Assets/Stylized Lava Materials/Lava02/T_Lava02_normal.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71610f3bc62fcfc4bb04f413e778e1d3' -> (Import Result ID: '184ad82210824fb173e7f8ef11deb6f7') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1046933849e99e0fdf48b5de0d9da614 DependenciesID=871904ed6923d8f25ef4ef51c66ece1f StaticDependenciesID=4afe75dd1d960209f3ada619f2a08ac1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7759.
+Memory consumption went from 369.3 MB to 363.2 MB.
+Total: 14.704100 ms (FindLiveObjects: 1.085500 ms CreateObjectMapping: 0.466100 ms MarkObjects: 10.764700 ms  DeleteObjects: 2.023200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
