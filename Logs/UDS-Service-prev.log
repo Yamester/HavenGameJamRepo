@@ -1,19 +1,19 @@
 
 Server arguments:
   --memory-size 1073741824
-  --shared-postfix 9a0ff271dc0535f66596957d8757fd96
+  --shared-postfix 7ad64d6560cf978d820837556bac79be
   --working-directory Library/DataStore
   --silent-console
   --shutdown-grace 0
   --client-process-check 0
-  --uds-log-file C:/Users/yasse/OneDrive/Desktop/Unity/HavenGameJam/Logs/UDS-Service.log
+  --uds-log-file C:/Users/yasse/HavenGameJamRepo/Logs/UDS-Service.log
   --debug-log 2
   -name
   Unity.DataStore
 
 Initialising UDS system complete:
   - System type: Service
-  - Resource namespace: 9a0ff271dc0535f66596957d8757fd96
+  - Resource namespace: 7ad64d6560cf978d820837556bac79be
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
