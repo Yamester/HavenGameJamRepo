@@ -73,6 +73,7 @@
     <Compile Include="Assets\MainMenu\Scripts\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\SFX.cs" />
+    <Compile Include="Assets\Scripts\KillScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
