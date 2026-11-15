@@ -2622,3 +2622,1571 @@ Asset Pipeline Refresh (id=0ba762e6d069826498ed5cba5b6c6e15): Total: 311.656 sec
 	Untracked: 11256.074ms
 
 Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 18.695ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-HavenGameJam
+Unloading 122 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 1.unity'
+	Deserialize:            58.145 ms
+	Integration:            477.014 ms
+	Integration of assets:  2.142 ms
+	Thread Wait Time:       -1.889 ms
+	Total Operation Time:   535.412 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 6831 unused Assets / (16.0 MB). Loaded Objects now: 7781.
+Memory consumption went from 0.53 GB to 0.51 GB.
+Total: 663.102600 ms (FindLiveObjects: 3.002400 ms CreateObjectMapping: 2.222100 ms MarkObjects: 523.328400 ms  DeleteObjects: 130.536500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\yasse\HavenGameJamRepo\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/yasse/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 429.990 seconds
+	Project init time: 				417.781 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.007 seconds
+		Asset Database init time: 		0.942 seconds
+		Global illumination init time: 	0.067 seconds
+		Assemblies load time: 			3.776 seconds
+		Unity extensions init time: 	0.961 seconds
+		Asset Database refresh time: 	311.661 seconds
+	Scene opening time: 			11.020 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794777807133,"processId":29176,"projectLoad":429.9900505,"projectInit":417.7813784,"templateInit":0.0,"packageManagerInit":0.0067772,"assetDatabaseInit":0.9422162,"globalIlluminationInit":0.0665206,"assembliesLoad":3.7757263,"unityExtensionsInit":0.9613775,"assetDatabaseRefresh":311.6605875,"sceneOpening":11.0203444}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794777807134,"processId":29176,"editorVersion":"6000.6.9f1 (8c45277fb9c5)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+GPU Resident Drawer created.
+Starting new worker id: 1 with log in C:/Users/yasse/HavenGameJamRepo/Logs/AssetImportWorkerHW1.log
+Scanning for USB devices : 6.801ms
+Scanning for USB devices : 4.712ms
+Scanning for USB devices : 5.105ms
+Importing 'GUID: 12a8335b28b29f9478d13cd7bf41ff2e - Path: Assets/Levels/Level 1.unity' with importer (DefaultImporter)
+Imported 'GUID: 12a8335b28b29f9478d13cd7bf41ff2e' -> (Import Result ID: 'c5a3f7d43e3e95fb57449d3e3a2d8bcc') in 0.017 seconds [static dependencies only]. Details - ImportResultOutputID=c86364eba0eb141ef63cae9e882c96ac DependenciesID=c101a9cf4771537105a627dc5910dbd0 StaticDependenciesID=7b287a17c5992db371ffdd4c61b78d93 
+Importing 'GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab' with importer (PrefabImporter)
+Imported 'GUID: bdf3013a96716614d90ff149ed83777d' -> (Import Result ID: 'a36c0d1d93d606fb2074d40f15de5973') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39c8ab6908ecc6627caeaeeda76f36ef DependenciesID=4e908f4658ef6b9f60c900dc7bf95fcc StaticDependenciesID=917ee0bb27151960fe9174007efc4b65 
+Refreshing native plugins compatible for Editor in 19.44 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=ad5f2fa9060ac0647bac46ab52bbedb6): Total: 1.938 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=6 ms, native=1666 ms
+		Asset DB Callback time: managed=118 ms, native=144 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1401, non-scripts=2418
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 1.754ms
+	InvokePackagesCallback: 15.649ms
+	ApplyChangesToAssetFolders: 4.857ms
+	Scan: 213.293ms
+	Collect global state as custom dependencies: 9.875ms
+	OnSourceAssetsModified: 13.956ms
+	CategorizeScriptCompilationAssets: 3.475ms
+	ProcessAssetsWithTransientArtifactChanges: 14.002ms
+	CategorizeAssets: 807.462ms
+	CompileScripts: 0.644ms
+	ImportOutOfDateAssets: 119.229ms (3.463ms without children)
+		ImportManagerImport: 102.463ms (23.252ms without children)
+			UpdateCategorizedAssets: 0.165ms
+		ReloadNativeAssets: 0.288ms
+		UnloadImportedAssets: 4.194ms
+		ReloadImportedAssets: 4.938ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.428ms
+		InitializingProgressBar: 0.692ms
+		ImportSchedulerStart: 5.684ms
+	PostProcessAllAssets: 158.815ms
+		XRBuildSystem.XRAssetImported 47.736ms
+		PostProcessCallbackCreateDeferredMaterials 0.091ms
+		RaytracingShaderImportPostprocess 0.071ms
+		PostprocessAssetsUpdateCachedIcon 0.067ms
+		ObjectImages.AssetImported 0.055ms
+		MonoPostProcessAllAssets: 107.588ms
+			AssetPostprocessor.OnPostprocessAllAssets 56.388ms
+			AssetChangedListener.OnPostprocessAllAssets 16.863ms
+			SyncVS.PostprocessSyncProject 6.067ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.086ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.042ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.021ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.955ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.921ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.855ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.804ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.766ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.292ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.184ms
+			PostProcessor.OnPostprocessAllAssets 0.168ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.149ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.134ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.132ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.123ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.120ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.118ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.107ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.099ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.081ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.077ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.066ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.065ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.062ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.057ms
+	PostAssetChangesProfiler: 78.295ms
+	GatherAllCurrentPrimaryImportResultRevisions: 26.363ms
+	UnloadStreamsBegin: 83.100ms
+	PersistCurrentRevisions: 1.658ms
+	Untracked: 320.511ms
+
+Opening scene 'Assets/Levels/Level 1.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 1.unity'
+	Deserialize:            12.667 ms
+	Integration:            158.635 ms
+	Integration of assets:  0.033 ms
+	Thread Wait Time:       0.290 ms
+	Total Operation Time:   171.624 ms
+Unloading 71 unused Assets / (16.9 MB). Loaded Objects now: 8736.
+Memory consumption went from 0.60 GB to 0.59 GB.
+Total: 310.386100 ms (FindLiveObjects: 2.935700 ms CreateObjectMapping: 1.208800 ms MarkObjects: 254.832100 ms  DeleteObjects: 48.153700 ms)
+
+[MODES] ModeService[default].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/yasse/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.235s, timestamps: [458.393 - 458.629]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=6bb405ef38b491740a3decb46c1437c5): Total: 0.235 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "fg_SnZL4"... (expires: 2026-11-15T23:19:11Z)
+Starting new worker id: 2 with log in C:/Users/yasse/HavenGameJamRepo/Logs/AssetImportWorkerHW2.log
+Asset Pipeline Refresh (id=e2ebef0acf69e174593f3aaefd0129e2): Total: 0.034 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+UPID Received '55910870-373d-4e42-88c9-d1190064d332'.
+Opening scene 'Assets/Levels/Level 1.unity'
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 1.unity'
+	Deserialize:            11.591 ms
+	Integration:            163.550 ms
+	Integration of assets:  0.015 ms
+	Thread Wait Time:       0.112 ms
+	Total Operation Time:   175.268 ms
+Unloading 7 unused Assets / (245.7 KB). Loaded Objects now: 8936.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 228.447600 ms (FindLiveObjects: 3.106400 ms CreateObjectMapping: 0.990400 ms MarkObjects: 221.271400 ms  DeleteObjects: 1.686400 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=dafec7fcb5ee5a244b8d3b5ff26072a8): Total: 0.037 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+[OnDemand] Worker 0: WorkerState(ShuttingDown), ImporterState(Unavailable) worker timed out shutting down - while handling importAddress Guid(2bbb4ea86af3fcf43ab224b29dd1f919) Importer(815301076,00000000000000000000000000000000) - path Assets/Prefabs/Coin_Gold_Star.prefab - see the AssetImportWorker log for worker 0 at /Logs.
+GPU Resident Drawer created.
+Asset Pipeline Refresh (id=d954c95af26aa2d43b715e06a90465d7): Total: 0.087 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            25.501 ms
+	Integration:            160.851 ms
+	Integration of assets:  0.069 ms
+	Thread Wait Time:       0.268 ms
+	Total Operation Time:   186.688 ms
+Unloading 7 unused Assets / (107.1 KB). Loaded Objects now: 8855.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 328.805700 ms (FindLiveObjects: 4.569800 ms CreateObjectMapping: 1.790100 ms MarkObjects: 317.133500 ms  DeleteObjects: 3.775500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+Asset Pipeline Refresh (id=0a339e5ab7b6f9b48908262a2da05a0c): Total: 0.052 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Worker ready: AssetImportWorkerHW1 1
+Worker ready: AssetImportWorkerHW2 2
+Starting new worker id: 3 with log in C:/Users/yasse/HavenGameJamRepo/Logs/AssetImportWorkerHW3.log
+[Worker1] Imported GUID: 5349618d155f8ad44a1aa7cc3ade8fcf - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Compiler/PassesData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e3c0f95c393cea98311c408c63ee719') in 0.9593636 seconds
+[Worker2] Imported GUID: 071727a8ddbbb904b839d4969b7d62b8 - Path: Assets/AurynSky/Forest Pack/Animation/ChestOpen.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '36244a7d857fc6c55a98a278570d85ea') in 0.9610343 seconds
+[Worker1] Imported GUID: fe87c0e1cc204ed48ad3b37840f39efc - Path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '85fe273f9574529451ab92d4938d9349') in 0.0914029 seconds
+[Worker2] Imported GUID: cb8032a4c9fc6be448a89e3426890e21 - Path: Packages/com.unity.render-pipelines.universal/Runtime/XR/XRPassUniversal.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43184d5f4e015d5478ec401f5bd804c2') in 0.1305389 seconds
+[Worker1] Imported GUID: 753d1ac2429a21a44ac5f937cbbb409f - Path: Packages/com.unity.render-pipelines.core/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4600bf8eed8a23e445521111969effce') in 0.0916312 seconds
+[Worker2] Imported GUID: f2e2a7724f774533bd7fb6cc8d95b34d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Passes/PostProcess/UberPostProcessPass.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd6aca099ddd9e6e2f8ca197abe1cbea2') in 0.0832958 seconds
+[Worker1] Imported GUID: 143998ff65f2ada468f04434bfabf8c5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/UniversalRenderer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a88541f8f10d4da314e03c83f30bbe11') in 0.0831511 seconds
+[Worker2] Imported GUID: 6f4ceaf0efe7bdc42a298306d8eaca62 - Path: Assets/AurynSky/Forest Pack/Animation/Flag.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '046e03e8ced45782e1bb7c764206ea4b') in 0.1184259 seconds
+[Worker1] Imported GUID: 8c72f47fdde33b14a9340e325ce56f4d - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets/UniversalTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c649e9af4ba2ca3f3f1e3e9e13696dbf') in 0.1054297 seconds
+[Worker2] Imported GUID: 7c3e1a5d9b2f4e8a6d0c4b1f3a92e57d - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/ShadowCasterPathUndoTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '32c2a02098972edbe37bd2aaea6b372c') in 0.0948805 seconds
+[Worker1] Imported GUID: 3a18b0ed3fa4aa1e2aa3e5bf95cf38ca - Path: Packages/com.unity.timeline - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd64317340246d062e4191f912f36b3ea') in 0.0892938 seconds
+[Worker2] Imported GUID: d9e07f4b3f2788f4aabcef3bf810e3cc - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Compiler/NativePassCompiler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9074b21e24ff6697fecf5ba4cf7d176c') in 0.0873927 seconds
+[Worker1] Imported GUID: ec4b2559effa72e42a09339d71efef3d - Path: Packages/com.unity.ugui/Tests/Editor/TMP/FontEngineTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1342560185b5be0a80dfcc45208e9088') in 0.0879315 seconds
+[Worker2] Imported GUID: cda0d3546aa43e04e8b992c32cc95ac5 - Path: Assets/Materials/New Material 6.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4cdb0d98de9d711a94871712ed53d8f7') in 0.3100417 seconds
+[Worker2] Imported GUID: 4994f8a9b786efc419e89e1e7146cdc6 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeArrayTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8372bcf99953c2bab62a37af8a951a80') in 0.1055379 seconds
+[Worker2] Imported GUID: 2da0c512f12947e489f739169773d7ca - Path: Packages/com.unity.ugui/Runtime/TMP/TMP_InputField.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '69b994776ccf2b562d4971c5f42a6286') in 0.0967831 seconds
+[Worker2] Imported GUID: 0209e47ee7283cd42b965a3264075610 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/NoLeaksOnEnterLeavePlaymode.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd84c7db0730d0af911871a1fedac812b') in 0.0704023 seconds
+[Worker2] Imported GUID: ea489b4043ccf6e49b2acea3c66595a9 - Path: Packages/com.unity.ugui/Tests/Runtime/TMP/TMP_InputFieldClusterTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '95cd9a678e52da72bd9e14e229abe4a7') in 0.0886387 seconds
+[Worker1] Imported GUID: c2384f4f142bbcc4a95566c55927a024 - Path: Assets/AngeloMaN87/Prototype Map/Prefabs/ForestFlag.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '399b190e24ddc0104d26088b163bada0') in 0.652949 seconds
+[Worker2] Imported GUID: 258887e488db43041a92d45ddb4f2a4d - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/FreeformPathPresets.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b955e91aa194faba7464cca23bf291e2') in 0.0877607 seconds
+[Worker1] Imported GUID: 0b998d1d480ff8743817da102884ab16 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeTextTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ba8b59ac8664200efb6e198f0e3cec2') in 0.078752 seconds
+[Worker2] Imported GUID: a51b2ebb6fc0b124db55cbcc5af3e898 - Path: Assets/AurynSky - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a39655b662efa40af93b22e87f9b55d6') in 0.0801586 seconds
+[Worker1] Imported GUID: 673ad699de3e4632a701a4c656b9073f - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/ApplyPlayerScriptingBackendTask.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '69147c206efcbbd56d8c9304eb649c12') in 0.0828472 seconds
+[Worker2] Imported GUID: 038de1c4d210733429acda9d6f95d183 - Path: Packages/com.unity.render-pipelines.universal/Editor/Terrain/TerrainBaseMapGenPass.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3c206ff6b3925e779778f7fea31d8b60') in 0.0883885 seconds
+[Worker1] Imported GUID: d0dcef1b73594fe2b73a1c604143216b - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Layout/GridLayoutGroupFixedMaxSizeTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d59eb386feccc04930c54cd51f107cf') in 0.0761565 seconds
+[Worker2] Imported GUID: 6ad2e365b2be44c3aedc5892edc0ae8d - Path: Packages/com.unity.test-framework.performance/Editor/TestResultsParser.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd33b77d54e80e7c40f25bfb2e6cc0fd3') in 0.0884769 seconds
+[Worker1] Imported GUID: 25ee3a4bc58576c42aa35f5e3b411125 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows/Providers/ShadowShape2DProvider_Collider.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd1c8dacf40e04b5b2a2c2fca66789698') in 0.0908689 seconds
+[Worker2] Imported GUID: 12a8335b28b29f9478d13cd7bf41ff2e - Path: Assets/Levels/Level 1.unity - Importer: PreviewImporter -> (ImportResultId: 'ae708778af8e22b9e1fb681cc1ef07b3') in 0.0833774 seconds
+[Worker1] Imported GUID: a598580d0cfc7224ebed8d2b627d9e00 - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Image/ImageTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ba7fd5cbe3fdf439268942e106a3cb49') in 0.1013276 seconds
+[Worker2] Imported GUID: 3e68133cd13ef104088b87bbf4f00320 - Path: Packages/com.unity.test-framework.performance/Editor/TestRunBuilder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73f0621641132486ec29c4301417a10a') in 0.0808224 seconds
+[Worker1] Imported GUID: cc626abef6aa2ce4590462eff0e54571 - Path: Assets/AurynSky/Forest Pack/Animation/ForestChestTop.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e7649e686f115e260074c82a26dd3984') in 0.0923553 seconds
+[Worker2] Imported GUID: a34b888dc08a0694b8008696310812fd - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Provider2D/Shadow2DSources_PropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '449898cc048cc6a886b6468a4be75133') in 0.086701 seconds
+[Worker1] Imported GUID: ce4ff17ca867d2b48b5c8a4181611901 - Path: Packages/com.unity.ugui/Package Resources/TMP Essential Resources.unitypackage - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '44b7b43e4a48749404cf84449b7f8bf0') in 0.1002251 seconds
+[Worker2] Imported GUID: 1fbd0994cc948f24eafcf9f475618db0 - Path: Assets/AurynSky/Forest Pack/Models - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '36ed8e8ad45c0e39124c5a6aba0bc763') in 0.0768958 seconds
+[Worker1] Imported GUID: 30648b8d550465f4bb77f1e1afd0b37d - Path: Packages/com.unity.render-pipelines.universal/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '10ec5d3ea07eda103f9dddf0c9cc82b1') in 0.0837326 seconds
+[Worker2] Imported GUID: 762f0a4829f44584ba01e2f0661150d9 - Path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '565e1226e7d362a5229178b5bf8bf5d1') in 0.075139 seconds
+[Worker1] Imported GUID: 12a8335b28b29f9478d13cd7bf41ff2e - Path: Assets/Levels/Level 1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7644adbf6aeae65d3f1a5578c758d88b') in 0.086326 seconds
+[Worker2] Imported GUID: 33c94d1193416a7c93d299560a74a5cc - Path: Packages/com.unity.render-pipelines.universal - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'de50a25a30c9d56975e07dc4c688c884') in 0.0824369 seconds
+Asset Pipeline Refresh (id=d9da7c15f74a1f64f84ffba7f56f4c69): Total: 0.112 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker1] Imported GUID: 2cc0da5e119f39940a554dcaeec9f3ca - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Shadows/ShadowCaster2DEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '72a55e04dd9135af0390bc0b5ef56f37') in 0.0899319 seconds
+[Worker2] Imported GUID: 84d86c98104d94063ad70bc591530f65 - Path: Packages/com.unity.timeline/Editor/Utilities/AnimatedParameterUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c77131fde1cae50929ecc22dccf7a542') in 0.1041609 seconds
+[Worker1] Imported GUID: 294a697f95472fb4fbba98d4593434b7 - Path: Assets/AurynSky/Forest Pack - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8603376223e195cbe30cf1487a7b12a9') in 0.1018164 seconds
+[Worker2] Imported GUID: 319b8889f363f5947acf209c17a94149 - Path: Packages/com.unity.ugui/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '846a7c8067dc446023b2942e78fe9d3a') in 0.08167 seconds
+[Worker1] Imported GUID: 995fdaab737f1d14d94e74bd8aee25e4 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows/Shadow Provider Utility/ShadowMesh2D.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '02aaebb42cefec3fa6ba205656913863') in 0.0757603 seconds
+[Worker2] Imported GUID: 9a524f7be46233f4ba5569b2dc52878f - Path: Packages/com.unity.render-pipelines.core/Runtime/XR/XRLayout.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b4f9cb60cff67ab50344e434a8eefad2') in 0.0744507 seconds
+[Worker1] Imported GUID: 311973061cd7d474ebe00f2c7ab7f79c - Path: Assets/Scripts/KillScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ff434460141eefcd41fc6adbd13580c7') in 0.0750295 seconds
+[Worker2] Imported GUID: 7a98125502f715b4b83cfb77b434e436 - Path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Selectable.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b9b108f460f5afeb97fec2ef5e00600f') in 0.0722174 seconds
+[Worker1] Imported GUID: 632a8cfdfaac24d5f99ef36578edd4ed - Path: Packages/com.unity.render-pipelines.universal/Runtime/ScriptableRenderer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5cf5b3a64db13c6480b627e60d65f0d2') in 0.0839882 seconds
+[Worker2] Imported GUID: 2011a59d3f76b3d4a85cb53f945fceee - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/TestRunnerApiMapper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7bf2a48214b4bc23c469e406104e5788') in 0.1303467 seconds
+[Worker2] Imported GUID: 62e1d3960d9dba84780a633cbb9f63c2 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DEditorUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17cfd1d80d4135b25447f2bf64bdd721') in 0.3580271 seconds
+[Worker2] Imported GUID: 638c801f7a2ec7540a80aced12b2e474 - Path: Assets/AurynSky/Forest Pack/Animation/Banner.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1d360a871f5dbdfd003a87dcf5a86139') in 0.1114101 seconds
+[Worker1] Imported GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ba6305e1959d58a41b214493419f1315') in 0.7014884 seconds
+[Worker2] Imported GUID: 6207e83e581db4195aa37bf347496aeb - Path: Packages/com.unity.ugui/Tests/Editor/UGUI/UI/LayoutElementEditorMinMaxConflictTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73ae6ef1ead813c43d30ba70ce4381e2') in 0.1553593 seconds
+[Worker1] Imported GUID: cfd952b600713ff42a2db6d5c8228f8c - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeHashMapTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '588a1eff93c4612c72cdc0e3f4c194b3') in 0.1249395 seconds
+[Worker2] Imported GUID: 7a79c4e23d4d4b64bfa5fa9e6671a460 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/UIElements/PanelRaycaster.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '46822dda62cef46d8b10c513e3e95c1f') in 0.1264422 seconds
+[Worker1] Imported GUID: bb38f6025ca13a74bb896b504219a393 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeParallelMultiHashMapTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f8ccdfb7b678da4c7b1a5fabd2308e6') in 0.1244789 seconds
+[Worker2] Imported GUID: 5c52f3d26791c415b9e887442bfc817c - Path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Clustering.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0b6dd3e92a79c6a764a172556f498053') in 0.1202351 seconds
+[Worker1] Imported GUID: 8ce25c0534e0a234d8b710cadd871f84 - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeParallelHashSetTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f9f9689084c6c8337044d8ecf627817') in 0.1430023 seconds
+[Worker2] Imported GUID: df9b8a637277a446186fd30570e3e0bc - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Layout/LayoutGroupScaledMaxSizeTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2959f3a1bf7384210fccf59c1d376de6') in 0.1779166 seconds
+[Worker1] Imported GUID: 39262bb9f1f65f040aefacd75fbd0e47 - Path: Packages/com.unity.render-pipelines.universal/Editor/Decal/DecalPass.template - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd8bea68bf3c98d0af333b7488b446e59') in 0.189513 seconds
+[Worker2] Imported GUID: 073797afb82c5a1438f328866b10b3f0 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Lights/Light2D.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '69d5299e902284d38d4566e087bf20d2') in 0.1872992 seconds
+[Worker1] Imported GUID: bb7e2d0f4a7b4c32b50c2d10849628f2 - Path: Packages/com.unity.collections/Unity.Collections.Tests/FixedStringBurstTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '032d2739d381d679d9061a37939eca21') in 0.1702394 seconds
+[Worker2] Imported GUID: 7858fdf03cd14054aacea48b6356a33d - Path: Assets/AurynSky/Forest Pack/Animation - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dfaa90768217ea1bd0a0d9a4d747b495') in 0.2009559 seconds
+[Worker1] Imported GUID: 5aff42982aead5e44a3d2383ac031fff - Path: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter/Window/RenderPipelineConverterVisualElement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5e0899ebbc966430bb13bd2126235f1d') in 0.1620265 seconds
+[Worker2] Imported GUID: 4d0485591951645ba95101c95312104a - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Layout/LayoutElementMinMaxConflictTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a90a15c22dc0e8a52d75728e76942933') in 0.1119131 seconds
+[Worker1] Imported GUID: 45705132c6bcacc459c763f7cd71b9fa - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets/UniversalTerrainLitSubTarget.Dependencies.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'edb531be71666e47539934396664efc8') in 0.1231552 seconds
+[Worker1] Imported GUID: 4806b78c2ef8d0c4e9c46e5a337a9f98 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/ShadowCaster2DCastingSourceUndoTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c266bc10e6e5e02859229a20c3816466') in 0.0949111 seconds
+[Worker2] Imported GUID: 76c392e42b5098c458856cdf6ecaaaa1 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3556a40fbedc8fb8bf0fa59b9b41ce47') in 0.0986898 seconds
+[Worker1] Imported GUID: 4621f94b2b54ab04c80689a6795256a9 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/LightAnchorEditorTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '534c88aa73f278373556004b8b293a55') in 0.0844608 seconds
+[Worker2] Imported GUID: 9541d86e2fd84c1d9990edf0852d74ab - Path: Packages/com.unity.ugui/Runtime/TMP/TextMeshPro.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a325c971c4fa1b42c53052cfeb239023') in 0.1260159 seconds
+[Worker1] Imported GUID: 2d33d4223be73b4448d51d31323799fd - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeParallelMultiHashMapTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2e39ff323505f2799a33cc1412ec99be') in 0.1067643 seconds
+[Worker2] Imported GUID: 41c1d83e4d34d6247b6e021d9053b364 - Path: Packages/com.unity.collections/Unity.Collections.Tests/GenericContainerTest.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cb90b5d87b2fe5b4e90557d9bbd114b2') in 0.083978 seconds
+[Worker1] Imported GUID: c9fa73c3f49c43bc8f21fedf53591b10 - Path: Packages/com.unity.collections/Unity.Collections.Tests/DataStreamTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0be85b514f5a72aedbdcff3f5322a00f') in 0.0796429 seconds
+[Worker1] Imported GUID: 1ddc4d01f93629947903155de21d90ff - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeBitArrayTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ef676b532e490c65f5247bc96fbcf49a') in 0.0810443 seconds
+[Worker1] Imported GUID: d09858396dd7adb4bbdb22ea0c8c3a37 - Path: Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f0ea11f3125d31e2a55707f90fc747b6') in 0.0970252 seconds
+[Worker1] Imported GUID: 2c727e4c005e5114fb3348a38c4cebbf - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/UIElements/WorldDocumentRaycaster.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd0edc67b29fe91a272a9ecf6db373dc7') in 0.0851204 seconds
+[Worker1] Imported GUID: dbac0fe4abdb6db3e1a11db885ea5696 - Path: Packages/com.unity.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1429ad3a58c6eb8c3baa7fac3f440e64') in 0.1105778 seconds
+[Worker2] Imported GUID: 97f83210b5a4448cfbc61ec93d00fcaf - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Profiler/UI/U2DGraphicsHierarchyView/U2DGraphicsHierarchyView.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eec9e8c9edb0abf7bfd669c225af8e59') in 0.4573879 seconds
+[Worker1] Imported GUID: 357714a00c191294d87f51252d5f7d92 - Path: Packages/com.unity.test-framework.performance/Runtime/PerformanceTest.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b2444b7dd5e69e22014314298e629a47') in 0.0811936 seconds
+[Worker2] Imported GUID: ebcc5f899d9277642868aeda9a17cbaf - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/UtpMessageReporter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5b85f4788b5c8ed8149f10349c0ef214') in 0.1047699 seconds
+[Worker1] Imported GUID: 74772a939c2e97149a53a738de7e8f58 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Light2DProviderTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5cd05703f71c4425fa4a8800a04bcf7b') in 0.0800005 seconds
+[Worker2] Imported GUID: 5cb0d418e2eda6f4a8ebfe6910c17dd4 - Path: Packages/com.unity.test-framework.performance/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3896afb5a49e779219a50f4e7237b68f') in 0.0802897 seconds
+[Worker1] Imported GUID: 02ab4512457271c48afa84879f6d3848 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/InspectorIcons - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1c991ae2440e62b1f8354ea529e7e78') in 0.0794534 seconds
+[Worker2] Imported GUID: ae13646e45aa3634da32df7c7da1c380 - Path: Packages/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipeline.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca2b1e7a192320d148fbb9609d1c2cf0') in 0.0802625 seconds
+[Worker1] Imported GUID: aeec61a3ffba2f347be4a0b1d667c503 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/RenderGraphResourceTexture.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '779004b56ce9d8640da10bacf6346745') in 0.08746 seconds
+[Worker2] Imported GUID: 7b3a8c4d2f9e4b66a1d4c7e0f1b9a823 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DPrefilteringAnalysis.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '17ceb6eb931b14d2bb8bcb5382d9aa72') in 0.0932947 seconds
+[Worker1] Imported GUID: 58c9792f08de21b4194eb2f9d862dc22 - Path: Packages/com.unity.ugui/Runtime/UGUI/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7bd05b51222608fe5c05e58840d34ba9') in 0.0874294 seconds
+[Worker2] Imported GUID: ab361814f7174e46989e7f79e89f7c24 - Path: Packages/com.unity.collections/Unity.Collections/FixedString.gen.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '08f6394f70a28e0347d23a05aeaaa26c') in 0.1198098 seconds
+[Worker1] Imported GUID: dc50d6b320d6d4445898e5f4c7635be2 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Renderer2DMenus.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3a6f1880776330a256fd2160ade959a0') in 0.0871853 seconds
+[Worker2] Imported GUID: 49a9ab94ee438bec15377d1b37b37654 - Path: Packages/com.unity.render-pipelines.core - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cce912120e8a93f0c223a06ff8258591') in 0.1249509 seconds
+[Worker1] Imported GUID: b1516a46a16d458e8debc6b459b107ea - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/TaskList.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0c5ea22f904a595878176608be53e0b9') in 0.1786358 seconds
+[Worker1] Imported GUID: d51458b261e0ecc4a98904e53924dc1c - Path: Packages/com.unity.ugui/Editor/UGUI/Properties/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0db5ff704b02695b05d853c890978077') in 0.100445 seconds
+[Worker2] Imported GUID: 1511ccae7919cfc46b603b9b337fdc94 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5dded3b99d710b93e4ffdfde0a28e992') in 0.1747325 seconds
+[Worker1] Imported GUID: ea1514729d7120344b27dcd67fbf34de - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Targets/UniversalSpriteLitSubTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eb1f5dc48d70bc89d5e5452cde12fea4') in 0.1224944 seconds
+[Worker2] Imported GUID: 3d520a25148b68744a8a1a3e7ff07920 - Path: Packages/com.unity.render-pipelines.core/Runtime/XR/XRSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3a65081631ae2fd5ec8a69e46f6206f4') in 0.1449137 seconds
+[Worker1] Imported GUID: d973de1eba2f6934e9c31429e8e40c09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipelineCore.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'da17f10254d53af7032eb4a65d986d69') in 0.1559602 seconds
+[Worker2] Imported GUID: e9253e696cd45794d9aec6d4de366b6e - Path: Packages/com.unity.ugui/Editor/UGUI/UI/SelectableEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1123bc05c86a8b2f2e295945a742c7f7') in 0.1583375 seconds
+[Worker1] Imported GUID: e7ee44e4db2311b428e6f789318838f8 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/CombinedShapeLightShared.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a761d2c48543e21ad7b4deb9d4a2251') in 0.1403746 seconds
+[Worker2] Imported GUID: 2b3c35f9f9f3cb04b96b5cd06fc548bd - Path: Packages/com.unity.ugui/Tests/Runtime/TMP/TMPEssentialResourcesImporter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '48eef097ea3034216eb22c313f06d6f8') in 0.0942121 seconds
+[Worker2] Imported GUID: d691174143fd3774ba63d7c493633b99 - Path: Packages/com.unity.test-framework/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad556273ac787fd818ee69b37395afd2') in 0.1202285 seconds
+[Worker1] Imported GUID: d5ac453c34e359d439de9d724772ed3d - Path: Packages/com.unity.shadergraph/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '03cb02d17a790bbe585bdb9334b5c9f4') in 0.1353797 seconds
+[Worker1] Imported GUID: 06b06f5f5563e9a43b274eadc5373cc0 - Path: Packages/com.unity.ugui/Tests/Runtime/TMP/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8052383c7ab9438e1892d538870cd192') in 0.0858384 seconds
+[Worker2] Imported GUID: c851bee4305bddf438cc6ffc515991ce - Path: Packages/com.unity.ugui/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'da3963df546fadf06135dfb18dc14040') in 0.1248312 seconds
+[Worker1] Imported GUID: 4bb24419713edc74180cebbba7460c96 - Path: Packages/com.unity.ugui/Tests/Editor/TMP/TMP_CharacterClusterTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '69752e852fd75b4ed637c81012f07e5d') in 0.0944339 seconds
+[Worker2] Imported GUID: dd26f353075a7de438d1eeb98517dc50 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/RenderTextureDescriptorDimensionsTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6efa388ebb8d53577bab140f17a084ee') in 0.1041839 seconds
+[Worker1] Imported GUID: fd90885134624894ba845bbc692698a0 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Lights/LightUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5216d861039ade4830136c5c0b9149e0') in 0.1004903 seconds
+[Worker2] Imported GUID: 928853c33a90408408408d3b4bfb96e8 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets/UniversalTerrainLitSubTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '65c5c3e1832991cf32991e2a4a2698aa') in 0.0875514 seconds
+[Worker1] Imported GUID: 36d514892e55d4340b470c29fcab8b44 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9b92a4e2786ac3047a3b944099383e53') in 0.0835418 seconds
+[Worker2] Imported GUID: 5143f58107604835ab1a5efa2d8818fd - Path: Packages/com.unity.ugui/Runtime/TMP/TMP_Text.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd917f4f1f697a214826cdd31dfa941f0') in 0.0780206 seconds
+[Worker1] Imported GUID: 0bc3e52774a7486e8fc9876155dcf283 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/GpuBvhBuildTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cf948ef1a943ceba79e901c9f88d5153') in 0.0819194 seconds
+[Worker2] Imported GUID: 20aa4b11d3234ba388103659e9e2e310 - Path: Packages/com.unity.ugui/Tests/Editor/UGUI/Layout/LayoutUtilitySourceTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0d8ad4ca25d13db59e3fc16dc0798815') in 0.0841318 seconds
+[Worker1] Imported GUID: 688129ab15b222340a2c7fa427269889 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolume.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '79eec0f27fd9df3bbcffa3f0593a4f32') in 0.0780507 seconds
+[Worker2] Imported GUID: 656e461844099ae43a609ff6109b0877 - Path: Packages/com.unity.ugui/Tests/Editor/TMP/Unity.TextMeshPro.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a1f8b130c1fe6b422f272dc8cd514608') in 0.0967399 seconds
+[Worker1] Imported GUID: 8c1271f80ae02f349a5e7aeb0e5a6529 - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeGIBaking.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0cf5d67c1f94076e25e666a390913729') in 0.080933 seconds
+[Worker2] Imported GUID: b79a864cf2f142d7b5754106f2396401 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/UniversalTerrainLitCodeGenTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1df8aa7f0ae27f2b76b7d69fd800ef38') in 0.0808048 seconds
+[Worker1] Imported GUID: 8b8c0f1406565a1418d701ec762733ee - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/Tools/Converter/ConverterStateTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2fa0b3a21534cdc729304cb18e96ffef') in 0.080793 seconds
+[Worker2] Imported GUID: 4bd84e58bd56f496990c0624dfe88a1a - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeParallelHashMapTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '876ab972c2b3c190cac056cafc7dff69') in 0.0910252 seconds
+[Worker1] Imported GUID: f4688fdb7df04437aeb418b961361dc5 - Path: Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b981624952d9630244461bf9891bfd85') in 0.1261494 seconds
+[Worker2] Imported GUID: c79cdcb9c21d4339a577df76710eafd5 - Path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Includes/BuiltInCanvasPass.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5c527f095cd91af429e573eb0e549236') in 0.1060582 seconds
+[Worker1] Imported GUID: 6c3cabde0c68b753e74b80a428907801 - Path: Packages/com.unity.ugui - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ef1a502f8e98a02d2eab194a9002ce7') in 0.0760873 seconds
+[Worker2] Imported GUID: 6fb6d1c3ff6b1434aa8c4affe8313171 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Sources/Provider2DSources.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '841a6243de47fafe0d9d388282da9d10') in 0.0963983 seconds
+[Worker1] Imported GUID: 4c2585251ed5fc1b142778dc47ce7935 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Light2DCookieMigrationTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ec67ac4974ba29bcd6e59407d67083f') in 0.1024938 seconds
+[Worker2] Imported GUID: 27afde9fbf110b740bc75164f58d4f21 - Path: Packages/com.unity.render-pipelines.universal/Tests/Runtime/Light2DTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ea81345345ccf13b50d57c5da45bdd73') in 0.079761 seconds
+[Worker1] Imported GUID: 6936a9e20fa254433b9c06424258e80c - Path: Packages/com.unity.collections/Unity.Collections.Tests/FixedStringTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4213be0dcac11b9c24e46f7b0c7bcdbb') in 0.0694813 seconds
+[Worker2] Imported GUID: e5f236ef5fe43d04dbaacc87cfdbf66a - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/NativePassCompilerRenderGraphTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b60b3a55a5eadd30c179548fe48efb42') in 0.080277 seconds
+[Worker2] Imported GUID: f8ed0b11850145c4995dd76170bb2500 - Path: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Callbacks/PlayerQuitHandler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ebd505e0f2a9071433df3802a4f7d68f') in 0.1150401 seconds
+[Worker2] Imported GUID: c0081f3ec5034f9e989cab19a96d6096 - Path: Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1056b7e606fcee25d8db94bb0029fc73') in 0.0995135 seconds
+[Worker2] Imported GUID: bc00e25696e4132499f56528d3fed2e3 - Path: Packages/com.unity.ugui/Package Resources/TMP Examples & Extras.unitypackage - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4f9dca4339cfceb75810e3eca4660bf2') in 0.0790462 seconds
+[Worker1] Imported GUID: a74acab1c36b3344e95480f4d42afd55 - Path: Packages/com.unity.render-pipelines.core/Editor/StyleSheets/RenderGraphViewerDark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3544e2559adf75c0dd39e605b166dcaf') in 0.3839889 seconds
+[Worker2] Imported GUID: 0a845769eb1dc4f459f64e5c840d07de - Path: Packages/com.unity.collections/Unity.Collections/FixedString.tt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f3fa5e1b5c5831ffdb53c1d40e45150e') in 0.0812631 seconds
+Worker ready: AssetImportWorkerHW3 3
+[Worker2] Imported GUID: d6c78107b64145745805d963de80cc17 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets/UniversalLitSubTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '067cc6c43980a0df9e65bedf8f22c814') in 0.0898679 seconds
+[Worker1] Imported GUID: 8ec0cb4cdd3a9ae48b3a962d84c0dbe8 - Path: Packages/com.unity.test-framework.performance/Editor/IncrementalRunResultsWriter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '007928f72f1e8cbb7d122fd362d9b278') in 0.100763 seconds
+[Worker2] Imported GUID: 6e0bf59629e30a243ba9535c7ed91f54 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/BlockAllocatorTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a6c5a5e0d897f550e50b6bc635b685d') in 0.0720739 seconds
+[Worker1] Imported GUID: a5c214e5846a99242b348c37e49b2f59 - Path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b53798e6a463feb51335f8a9da1a21cc') in 0.0831367 seconds
+[Worker2] Imported GUID: f2216b7cb5772784daf9ad851edda832 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/TerrainLitShaderGUI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73e7e3e1509d5ea0d52f96405488770b') in 0.0742216 seconds
+[Worker1] Imported GUID: 8a410b213209442fb15a69799f0240a5 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/UIElements/PanelEventHandler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5823fe6d64665be5c24fa134c0298c31') in 0.0754345 seconds
+[Worker2] Imported GUID: 1b13ded1884be704b9f0610c73659f1e - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/LightAnchorEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4d4cadfb46de6eda9b8d071d9e7e5ff5') in 0.0915079 seconds
+[Worker1] Imported GUID: ed17b2030a89468485d8e1addb1a9e49 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Shadows/ShadowCasterPath.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '72ad5af9973b46c56bfc77d8bd8ef95c') in 0.088551 seconds
+[Worker2] Imported GUID: 79550f93c7dc21e41b0af2097cf46b53 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/HandleSet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6a1476f7098b37854fd8d55de00690d7') in 0.0878595 seconds
+[Worker1] Imported GUID: bde473d70341e914d94eb75dadeae951 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Provider2D/Provider2DSources_PropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4769f1d32bb82b92e661b7245192c05d') in 0.077586 seconds
+[Worker2] Imported GUID: fc59d1e6c6d24a569be25eea553b326f - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeTextTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c02619bb7ae3d8595eb0088cc9f7ef30') in 0.0987688 seconds
+[Worker1] Imported GUID: efad43e1236d94719d8f50862bf65d90 - Path: Packages/com.unity.test-framework - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ddf740c8311a38fc7bc6b792d4b26e9') in 0.0909063 seconds
+[Worker2] Imported GUID: ba923e2b58fea044bb1f8839376a1118 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/UIElements/UIToolkitInteroperabilityBridge.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2f3b903031ac9e8b8759ae9dec83a2c2') in 0.0885488 seconds
+[Worker1] Imported GUID: 7c1e4a9b3f2d4e6a8b5c0d9e1f2a3b47 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/ShadowCaster2DColliderCullingTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7f2eb4ced4fd4bc411fbf4f3f80ec3f') in 0.1196356 seconds
+[Worker2] Imported GUID: 089429d350f9ca04584448dfa84e2f3d - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/RenderGraphResourceBuffer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '71a46e43941093360887689bfffe74ff') in 0.1124317 seconds
+[Worker1] Imported GUID: 3135a2ca4096d0d4197185f22349d08e - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/TraceRayPathTracing.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3db0fe9dbe1ea550e81bf2fb44e31509') in 0.1488629 seconds
+[Worker2] Imported GUID: 3d96cc7adb6c4531998652ab1f09a983 - Path: Packages/com.unity.ugui/Tests/Editor/UGUI/UI/LayoutGroupAddUndoTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c09a2dfb75e9616df8e626e427e59314') in 0.0926334 seconds
+[Worker1] Imported GUID: 4ea07ee0847c4e359272dd9b57e1cb2b - Path: Packages/com.unity.test-framework.performance/Editor/TestRunnerInitializer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '471674f0a850ecd7caf3281f4415636a') in 0.0836081 seconds
+[Worker2] Imported GUID: cb7c939a806f03341b682c180dc13f08 - Path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/LayoutGroup.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '39a3fcf83267bea95c829a4e309063f5') in 0.0711617 seconds
+[Worker2] Imported GUID: 794f3951c48395848920fdb593a2ae38 - Path: Packages/com.unity.ugui/Editor/UGUI/UI/LayoutPropertiesPreview.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43136de75806ec7c8a6bb562e44f4f06') in 0.0803595 seconds
+[Worker1] Imported GUID: fdd19c82588da3e498a0c98951efa6c4 - Path: Packages/com.unity.timeline/Editor/Window/TimelineWindow_HeaderGui.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4180bbc972d928c6ad6d563a04a5fb9f') in 0.0860755 seconds
+[Worker2] Imported GUID: 9a371bcbba2084dd0a8ebc6826aa8794 - Path: Packages/com.unity.timeline/Editor/inspectors/CurvesOwner/CurvesOwnerInspectorHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '25d508ba666ed42289a5c71ec4ebcbdc') in 0.0812483 seconds
+[Worker1] Imported GUID: 102e512f651ee834f951a2516c1ea3b8 - Path: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dab59962af6cd2a8443713020790cf40') in 0.0899825 seconds
+[Worker2] Imported GUID: 0acda98c9f6649958fbedca381f35e2d - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Light2DLightTypePopupTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c96f53ad93f4083f4a82f1871d46e771') in 0.0715641 seconds
+[Worker1] Imported GUID: 62eec8a012ecc7c4a8b5a38b5dc130e4 - Path: Packages/com.unity.test-framework.performance/Editor/PerformanceTestRunSaver.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '62fb3d47c205281aa13ff1b9aa270dac') in 0.0781897 seconds
+[Worker2] Imported GUID: bd605698a338c4de88bb5b3c4632af68 - Path: Packages/com.unity.collections/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7174a8edf6ffd2774385b490136a93d') in 0.0692594 seconds
+[Worker1] Imported GUID: 7db70e0ea77f5ac47a8f4565a9406397 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows/ShadowCaster2D.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2a4b8d538116ee9d4b9dd09a3720eea7') in 0.0803114 seconds
+[Worker2] Imported GUID: 9698efb2816f96349ae46ee06003995b - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Compiler/ResourcesData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5fbabcda058b1304a57f6df524f5ccc9') in 0.0828959 seconds
+[Worker1] Imported GUID: ee19d1386b0b8ef47b4ab104ec460f81 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/PathTracing.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '84b1c106b7f8fe695ab9ae4101b61ae6') in 0.0802662 seconds
+[Worker1] Imported GUID: d6a9714d04bc387489829e17fc14cf3e - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/RenderGraphTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ca65ef22ee7773144b86a9dfa8660e4') in 0.0920428 seconds
+[Worker2] Imported GUID: 99ac6221b6ecd7b479be13e8b9866300 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/PathTracing/Shaders/TerrainRayMarchingTest.urtshader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7a5cf1cdfaf43610574c0a6243df914') in 0.1598676 seconds
+[Worker1] Imported GUID: 1c4f87267cc02d948a6a332c8768cd23 - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeListTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'adee566a6168259ede852fd0de95f5bd') in 0.11753 seconds
+[Worker2] Imported GUID: 11202834b4942ec4fa9242f65d9e0f4e - Path: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter/Window/RenderPipelineConvertersEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cf09efc1613baa669a96a781f3f4bb5d') in 0.1073835 seconds
+[Worker1] Imported GUID: 3846104859549aa4eb627e318722149f - Path: Packages/com.unity.render-pipelines.universal/Tests/Runtime/RuntimeTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '924d9d34d769382a8d23b94c89f72b9c') in 0.1115816 seconds
+[Worker2] Imported GUID: d082183c35deb87489e26f9c7ba8e41f - Path: Packages/com.unity.ugui/Tests/Editor/TMP/TMP_TextTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ed81480f918408ec7090c91003c07326') in 0.1142877 seconds
+[Worker1] Imported GUID: d6a2e6e4803de7b43baacdc355fc144d - Path: Packages/com.unity.test-framework/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8f7c7d19600aabcefc7d21823592d9e7') in 0.130243 seconds
+[Worker2] Imported GUID: 963afa495f3a6ef43bb488a65fe99d18 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeVolumeScratchBufferPool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '46398f1b448170a29578581ef940b3b7') in 0.101188 seconds
+[Worker1] Imported GUID: 78ef485c88176444bae5f0fce37b4e29 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeParallelHashSetTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5a56a5121d8ddcb012e238eb0ae02603') in 0.0778077 seconds
+[Worker2] Imported GUID: 14716551160f4757bf2332c27a53ec34 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Lights/Light2DAuthoring.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e40d4c845a85629559ba48d1317dd95e') in 0.0791663 seconds
+[Worker1] Imported GUID: 885d383951746604982b43fd5255f058 - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeRingQueueTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d97484541f87f01649e608de3c82776') in 0.0694926 seconds
+[Worker2] Imported GUID: 3489c9b1538db6b4198de2a526e423fd - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/TraceRayProbeVolume.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4f3019ac041ac0d3bf6ad0c301461a6d') in 0.0946615 seconds
+[Worker1] Imported GUID: 71e8c199da900544d92b3155f4165bba - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeBitArrayTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5dd990a2c68d11255cf6596d5029a482') in 0.0736618 seconds
+[Worker2] Imported GUID: f492edc6c73b74b7f994f4e948d53302 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeListTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1eb35a5969fc4efc262dbde776f3623b') in 0.0835528 seconds
+[Worker1] Imported GUID: 92b6367ea491af341aa7417fbac635ab - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/RenderGraphResourceRegistry.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '356ef1fcd12a14ffd7d6613465a3fcb3') in 0.0875766 seconds
+[Worker2] Imported GUID: 357fedd504264d038fe6f3a4979e54be - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Player/WaitForCompilationTask.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '71a89023769f4f9ebd433f3beed7d7bb') in 0.1106315 seconds
+[Worker1] Imported GUID: a279154a65cb87e46a9922aeaf9b7bc4 - Path: Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders/LensFlareCommon.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2440d9f3d671388bde5a937c243fe8eb') in 0.1226402 seconds
+[Worker2] Imported GUID: 7530ec596e48f41e2bc1cc954be9b805 - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VoxelizeScene.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6d00d18555102a7f95ae31c7c47d5c12') in 0.080146 seconds
+[Worker2] Imported GUID: 56a7556d9033d1f43b3825829da0505f - Path: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/Utilities/BlockAllocator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c5b01c06dd4e43f108218978468b793') in 0.1304526 seconds
+[Worker1] Imported GUID: 66b4b23f47b6c384494dd701081a4f81 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Provider2D/Light2DSources_PropertyDrawer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f07d413945a2d94924e937fd0786cd15') in 0.1582198 seconds
+[Worker2] Imported GUID: f46c1a0c3e3a98848a0efbf4e1fd5675 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Passes/AdditionalLightsShadowCasterPass.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '85251a5e576db5649c9d13fca0ec167f') in 0.0955867 seconds
+[Worker1] Imported GUID: 65a435b219724f1c9e25b4f8d4564bb3 - Path: Packages/com.unity.test-framework.performance/Editor/CmdLineResultsSavingCallbacks.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '018bce45695027d73338afd0f20135ee') in 0.1346118 seconds
+[Worker1] Imported GUID: b9eb962217e00bf4fbc734e109991fca - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Layout/GridLayoutGroupTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '77f7d09768cbeb2c0ee5c1a088c4fa46') in 0.1476331 seconds
+[Worker2] Imported GUID: 2cfc7b2b2f3c2d278fda10c9f463ef69 - Path: Packages/com.unity.collections - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '19081623511509e9c36378709a75db42') in 0.1992338 seconds
+[Worker2] Imported GUID: 4877f87131635e6408f8c44e5d86791e - Path: Packages/com.unity.ugui/Runtime/TMP/TMP_ResourcesManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '514e807d8f0dfd3a6423cb93b694acda') in 0.142639 seconds
+[Worker1] Imported GUID: 214c0945bb158c940aada223f3223ee8 - Path: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Unity.UnifiedRayTracing.Runtime.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '967d4f98eb59b75333dd715e08ee501b') in 0.174175 seconds
+[Worker1] Imported GUID: a57f9f83ea626ae45b402953fe637268 - Path: Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ca8a70644878e2cebeccbf298f696e7') in 0.1693324 seconds
+[Worker2] Imported GUID: c2bef50bb856f744080489123f6b3f84 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/Light2DEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fc43344feef2c910133e21cdb2106d44') in 0.2635764 seconds
+[Worker1] Imported GUID: 88e4f63cb3be45a6afbc8f43bc4683d1 - Path: Packages/com.unity.test-framework.performance/Runtime/Statistics/ConfidenceLevelExtensions.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b80bc705258ad32a48b9cc198e9075f2') in 0.2169779 seconds
+[Worker2] Imported GUID: 573a6c03a0cb85549bc135c9832138b2 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/ShaderScriptableStripperTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'db5dc438b1f21f0fe512d1b56e66adfc') in 0.1872992 seconds
+[Worker2] Imported GUID: fdbc62973f374ebf9304713c48941c1f - Path: Packages/com.unity.render-pipelines.universal/Runtime/UniversalRendererRenderGraph.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '44cca5031337cd5df8363d20397e4777') in 0.1462058 seconds
+[Worker1] Imported GUID: 5b49dfbe158cb4949aa44ed313cd0959 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeRingQueueTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1f633b96fcfb09ac781b88a5411fb1d0') in 0.1610452 seconds
+[Worker2] Imported GUID: dff73c4907c95264c8fc095a81f9d51e - Path: Packages/com.unity.timeline/Editor/inspectors/ClipInspector/ClipInspector.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5c52766da8c5dc7adece79639a5e3ac5') in 0.1382718 seconds
+[Worker1] Imported GUID: ecff4e417ae4df949990041f64125d28 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/ShadowCaster2DMeshLeakTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2a02b7f2a1e547f3dd0ade57f20c8693') in 0.1497497 seconds
+[Worker2] Imported GUID: ad64d0820d4d7924d9ffb4f53ad1b75e - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeParallelHashMapTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6aac3a2b1abf5de0e18629fd9acc7614') in 0.0964439 seconds
+[Worker1] Imported GUID: c88f5cead0c0b2a4eb05b5900433f8d1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/PixelPerfectCamera.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd51151a112e3e98231592bf7e953940c') in 0.1638627 seconds
+[Worker1] Imported GUID: 277dac84baaf845b1952f2269f374912 - Path: Packages/com.unity.collections/Unity.Collections/UnsafeList.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b4ba68eee6073d696a55668595f825c5') in 0.1212707 seconds
+[Worker1] Imported GUID: b742fb157aac4d48940f389a8fc12ba1 - Path: Packages/com.unity.render-pipelines.universal/Editor/Terrain/TerrainPassFunctions.template.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '684158d19da1ed731b6b65129cd44532') in 0.1244316 seconds
+[Worker1] Imported GUID: e191a1662a374793b8c6b74f0d60ca39 - Path: Packages/com.unity.ugui/Tests/Editor/UGUI/Layout - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7633efb5a9e8ab4a9591b48971d80003') in 0.1187335 seconds
+[Worker1] Imported GUID: 0618e9bb046736646afe2346a3813db4 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/CanvasPass.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '60232a029177fb57626dddac92615d23') in 0.1564569 seconds
+[Worker2] Imported GUID: a58fea03b14b2be4295b11f21a57a6f7 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/LightCapUp.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '74aa45a5bdde67271eba19f484ca5685') in 0.730475 seconds
+[Worker2] Imported GUID: adeb1350b6faa3f49b2e8eeca35edc53 - Path: Packages/com.unity.test-framework.performance/Runtime/PlayerCallbacks.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c74e17e679bfd24122823c15702c269e') in 0.1743139 seconds
+[Worker2] Imported GUID: df8df80bb65e9ec4280229a9921c4f3c - Path: Packages/com.unity.timeline/Editor/State/WindowState.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8da8e9f84b5172ffa7557cde6ae9b9be') in 0.1625887 seconds
+[Worker2] Imported GUID: 3550d8ec6f29ab34d895ae9a43d560c2 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/RaycastResult.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '61d81e4cf0a0127abdff3421ea743d80') in 0.143608 seconds
+[Worker2] Imported GUID: 8a8695521f0d02e499659fee002a26c2 - Path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/GridLayoutGroup.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e6f5e3672ef2964d61c697eb0f3e333a') in 0.0950787 seconds
+[Worker1] Imported GUID: 02232385c7b444348987d74db8dd7b2e - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/LightCapDown.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'da90a20bb362efcf0b0ca5f5192a4746') in 0.6810864 seconds
+[Worker2] Imported GUID: 7cba34d70552e144586a4d3ce4a33de5 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/PixelPerfectCamera.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '147fb1effea6ad1360b23e3731ce8809') in 0.1267904 seconds
+[Worker1] Imported GUID: 130a64d32c054c5fb51b1e5e13f93fc2 - Path: Packages/com.unity.shadergraph/Editor/Data/Util/GraphUtil.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'efc904004849e963a6a0840e0668642a') in 0.0963466 seconds
+[Worker2] Imported GUID: 30f2a9fda7b63b041a70443bae3e7c01 - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Layout/LayoutGroupTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7a7aa32178e940e38005e6791746e902') in 0.1590659 seconds
+[Worker1] Imported GUID: 1c147d10db452eb4b854a35f84472017 - Path: Packages/com.unity.ugui/Runtime/TMP/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9e6e9ae0c6344b1f886f78a82b4fee9b') in 0.1751216 seconds
+[Worker1] Imported GUID: e5f7648dfb00c83428a633efe7759b19 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/SceneViewIcons - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7d3e197383b8485a102bd357128e403') in 0.1082234 seconds
+[Worker2] Imported GUID: 16b5d2a7d862f49ffb9453600e8ee776 - Path: Packages/com.unity.render-pipelines.universal/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '79c3eb2de4cc4a46d592be8bb13c21b3') in 0.1618737 seconds
+[Worker1] Imported GUID: c89564426827c76479d8772adb43e6e4 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/SceneViewIcons/FreeformLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9cad95a0962f37fc2fc5dd444db62616') in 0.1132733 seconds
+[Worker2] Imported GUID: d410bd21cbf6a6e4381b336d9c72ffa5 - Path: Packages/com.unity.collections/Unity.Collections.Tests/UnsafeHashMapTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e0df2214373d1ad44fab2cc9b8ed56f9') in 0.0969169 seconds
+[Worker1] Imported GUID: 32be1f4157d401645be84715cb5f8568 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderScriptableStripper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a2b5a506defa7d02b3e5007afd08f43f') in 0.1549334 seconds
+[Worker2] Imported GUID: 8d87e57545548474c86d357b2d08ee30 - Path: Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/LensFlareCommonSRP.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0885f7dd59b327af6284d7eff3034cb2') in 0.1274583 seconds
+[Worker1] Imported GUID: f9c067f2cfe24ce98e2deecdb0ed12a3 - Path: Packages/com.unity.collections/Unity.Collections/UTF8ArrayUnsafeUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f7344b78ff315575981d19b270b63b0') in 0.1085174 seconds
+[Worker2] Imported GUID: 0362378ab9754c4888347ea6d9ab2dfb - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/RestorePlayerScriptingBackendTask.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1cd07f6d62ef4a1431807e83fd6a1f23') in 0.1021237 seconds
+[Worker1] Imported GUID: f6cdcb0f9c306bf4895b74013d29ed47 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets/UniversalDecalSubTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '07d40c37502cbd1ae89936573456fc9c') in 0.0956522 seconds
+[Worker1] Imported GUID: 7d7d4ecff4c4b59488b97a13efb52739 - Path: Packages/com.unity.render-pipelines.universal/Runtime/PostProcess.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '540f252e9ef5d0a5bd74a39ae4f9b7f4') in 0.1113105 seconds
+[Worker2] Imported GUID: e957854850ccb7140a538f7a93f8761b - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/InspectorIcons/ParametricLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3e77a5b811ad67314ded674c38969707') in 0.2771484 seconds
+[Worker1] Imported GUID: 108e201829ab4214383a5467adbc0086 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/LightCapBottomRight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ddb3560620548f25cec996ed33ca05b9') in 0.1204343 seconds
+[Worker2] Imported GUID: 074e9a8a8d8919e469b8dd79c7dc69a9 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Lights/Light2DShape.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cc8ad4551c58572d662e44d5662e91cf') in 0.1046145 seconds
+[Worker2] Imported GUID: 2085a40153652db43a116297c1924476 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a7e580e145e382000f0a86c6f9fa003d') in 0.1465651 seconds
+[Worker2] Imported GUID: cb2be5655921e3c4c8c8bd8d647227d4 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows/Providers/ShadowShape2DProvider.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5abf0a1ddabcf96afc3678f957024314') in 0.0931229 seconds
+[Worker2] Imported GUID: dbd10d839f22d4127aeb9851dfed8caa - Path: Packages/com.unity.render-pipelines.universal/Runtime/Passes/RenderObjectsPass.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd0c8aa2f24bb1caa1d84bd5f8ba88231') in 0.1065955 seconds
+[Worker2] Imported GUID: 8f8544f075b7a2f4fa7324c965608fb2 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Rendergraph/Renderer2DRendergraph.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09bb67c6de51d100fccb5b19fbca2ca2') in 0.0901191 seconds
+[Worker2] Imported GUID: b256dac03c4645f593e9cb8ecbc51419 - Path: Packages/com.unity.render-pipelines.universal/Runtime/2D/Rendergraph/DrawNormal2DPass.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3e6f2614e8169a41ab958b2e4b87e3a1') in 0.0854305 seconds
+[Worker2] Imported GUID: 4b7ac9a635582ab4998d4179483bacc5 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/RenderGraphResources.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '115e5c728d2f149fa5eeab8cdae8dbbb') in 0.0941884 seconds
+[Worker2] Imported GUID: 1bbf55e7974743d8babdda480740a760 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Targets/UniversalSpriteCustomLitSubTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '767c643351d460435a03370f2ae01ef3') in 0.0931939 seconds
+[Worker2] Imported GUID: 7d62522e622aeff4aad818e5a3124efd - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82c58c3521dee28f57a2f86c5b7ba449') in 0.0996934 seconds
+[Worker2] Imported GUID: 5206b91ddf5158c47918dbb51d045103 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '46fcbfabc8202bdc54863d42de05e41b') in 0.110404 seconds
+[Worker2] Imported GUID: 897920160c2045844a3119a3a3d937fb - Path: Packages/com.unity.ugui/Tests/Runtime/TMP/TMPTestSuiteWithEssentialResources.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c791081a2958e44612ed008148fefeae') in 0.1009646 seconds
+[Worker2] Imported GUID: e1feb27120f96ae4ea48e922cbfd93da - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/SceneViewIcons/PointLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b4661ae88deb41e534c0f98cedd2d873') in 0.1298299 seconds
+[Worker2] Imported GUID: b030b7e8a4c531241b496403efc884ab - Path: Packages/com.unity.test-framework.performance/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c1dcacc20fb219d5ebfffa5cd0883be6') in 0.1575987 seconds
+[Worker1] Imported GUID: 6bdaec52cb3103b43999ff55dddc6a5d - Path: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter/Window/RenderPipelineConvertersEditor.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '55ac8e2ad2d0a9046ee1fe1c2cf53f69') in 1.4572734 seconds
+[Worker2] Imported GUID: be387ad7b61cdc84c81dbdd3d936722c - Path: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/AccelStructAdapter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '614d6e3bfdfa9b59e6b1dcc1d1bee8fd') in 0.1243163 seconds
+[Worker1] Imported GUID: 5e9b4f28f6ce05547b8679d0cff3e682 - Path: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter/Window/RenderPipelineConvertersEditor.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c33ca8e41cd0722ae8792997db24f3ff') in 0.1032487 seconds
+[Worker2] Imported GUID: 7f923c32ff8dfab40b5673135ddb6cd4 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/SceneViewIcons/GlobalLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '027e9920f891d7c6bfff48a058c1279d') in 0.1178353 seconds
+[Worker1] Imported GUID: 0f8abfbe013119f439e0bfec01e3687b - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/ProbeVolumeLightingTab.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1ab239fc58e3a812c527f1a7d6271250') in 0.1651801 seconds
+[Worker2] Imported GUID: ef136de7def056a4d8aa337fa0bcd989 - Path: Packages/com.unity.render-pipelines.universal/Editor/Terrain/BuildTerrainSurfaceDescriptionInputs.template.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c4e6bda61277045e83a14cf9b93747aa') in 0.1449555 seconds
+[Worker1] Imported GUID: 13a9c1b4df2e489e8eb9cacca7429596 - Path: Packages/com.unity.timeline/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fac714367ca70740ab9b288c9944faa6') in 0.0937842 seconds
+[Worker2] Imported GUID: 3b8f1e6c2d4a4f7e9a1c5b0d7e2f4a61 - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Light2DFreeformMeshTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '774b5077895c81e68556bdc87745ced4') in 0.0906104 seconds
+[Worker1] Imported GUID: 131f64991fbd3cb4286f7fbc05dcf29e - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/ShaderPassDecal.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad0912b0b0c19c22c1669b6aaa00762e') in 0.1155291 seconds
+[Worker2] Imported GUID: 80ac8f5b2a7fa904dbc80111be88c8be - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Data/TestJobData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1150a112ac54eb5453a311311e684124') in 0.110517 seconds
+[Worker1] Imported GUID: 1ea10891dd782154ca0fb67bce9e6f72 - Path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/InputModules/BaseInputModule.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '793fcb0500fff65a3bc8fc5fde2088da') in 0.0984942 seconds
+[Worker2] Imported GUID: e2f66efe3b7a1c24e859e7fbf272f76d - Path: Packages/com.unity.render-pipelines.universal/Tests/Editor/Light2DLightTypeUndoTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '07e1efcc182cd7d0bee036a76e41bef2') in 0.073804 seconds
+[Worker1] Imported GUID: 7693972390a4ed841a986c0c452c1058 - Path: Packages/com.unity.ugui/Editor/UGUI/UI/LayoutElementEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5756d0cc98c409d560de0bad9610e644') in 0.0977242 seconds
+[Worker2] Imported GUID: 4130b277c1a94612a9dc40631c012775 - Path: Packages/com.unity.ugui/Tests/Editor/UGUI/UI/LayoutElementEditorTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1828b14054f499e5e4090fe0a69f237d') in 0.0839542 seconds
+[Worker1] Imported GUID: 6a10aa0ff0209e5cece9860e5aff1f08 - Path: Packages/com.unity.test-framework.performance - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '028accb2c1b385c7b7c250c69464e935') in 0.0904128 seconds
+[Worker2] Imported GUID: 4d4f645458af4b849672d0ccaae85173 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Passes/PostProcess/BloomPostProcessPass.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '248f66f343ae79d1970c8dac88f734e6') in 0.0896592 seconds
+[Worker1] Imported GUID: 82bf3f737dec0be43a60891958a8da87 - Path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/LayoutUtility.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9ae2b984de555d08c9444c2656839010') in 0.0814697 seconds
+[Worker1] Imported GUID: 6fac6d65d2fb7472d94e95ddb8b8798c - Path: Packages/com.unity.ugui/Tests/Runtime/UGUI/CanvasRenderer/CanvasRendererTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca96fc0c80f6aad95d9f2f5afcce2338') in 0.0807286 seconds
+[Worker1] Imported GUID: 61abe3cacdf844c6aa82da8e6114defb - Path: Packages/com.unity.render-pipelines.universal/Tests/Runtime/RealBackbufferMSAATests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b87197caebf87990bc2916db954cf2b2') in 0.0776295 seconds
+[Worker2] Imported GUID: 6eaa9958d83ec43499e946a21edba283 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/InspectorIcons/PointLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '821237964c976bf35f3d862b7b20641c') in 0.2947116 seconds
+[Worker1] Imported GUID: 60f3b660212a40e7afb5bf15edcd64f2 - Path: Packages/com.unity.test-framework.performance/Runtime/Data/RunSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2b00ba1f9fd549ade66dad22c20a861c') in 0.0917439 seconds
+[Worker2] Imported GUID: 59d3f5586b341a74c84c8f72144a4568 - Path: Packages/com.unity.test-framework/UnityEditor.TestRunner/CommandLineTest/RunSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ed54f8b049a1e99554b2dd20f1b648ee') in 0.1083188 seconds
+[Worker1] Imported GUID: 8839c54710da3374f994e12f39b6d65f - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/InspectorIcons/SpriteLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd72ee828020edc2d051b14ef5c229828') in 0.1137679 seconds
+[Worker2] Imported GUID: f92c32975f7059949a65dedf00f850c5 - Path: Packages/com.unity.collections/Unity.Collections.Tests/NativeHashSetTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ed2408b88b375637b1a51408d17f0bf7') in 0.1049839 seconds
+[Worker2] Imported GUID: 8f5dd14b314efbe4684329d8a14bbe38 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/InspectorIcons/GlobalLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dc548bd4666e12b3629f3dcf04708a96') in 0.1242643 seconds
+[Worker1] Imported GUID: 68e5bb6e60bebc046b26d3c3100a523b - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/InspectorIcons/FreeformLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2767c938b4415cde6b086a1a9c6b6a43') in 0.1254192 seconds
+[Worker2] Imported GUID: f4f779c88fa8c514d970afbd68ff6b3f - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/LightCapTopLeft.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e7e2011f8676ad390781db48c0a4700a') in 0.1325666 seconds
+[Worker1] Imported GUID: ec2f01df0bb1bfe459b5562a9e71c8d4 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/Cinemachine.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b16727884a6e3ecd30a45370d5aa5c24') in 0.15865 seconds
+[Worker2] Imported GUID: 70d16a5f04690d74ab9b1ddcbefd47bb - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/SceneViewIcons/SpriteLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'db0e15a3e0dd7220db291c642fa3fbdf') in 0.1488894 seconds
+[Worker1] Imported GUID: fb7e2c1cde476854fb7067dcca74511a - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/LightCapBottomLeft.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09c2dbadc10aa6135ff5a6738cf27e1d') in 0.1280953 seconds
+[Worker2] Imported GUID: b42c95bdd7efefc43900dbbedc4a39f8 - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/LightCapTopRight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '24b06b153ff110ab6cbb9c82bfd78658') in 0.1126603 seconds
+[Worker1] Imported GUID: 302e68dd45b9b2d4194ff0f7f454436f - Path: Packages/com.unity.render-pipelines.universal/Editor/2D/ResourceIcons/SceneViewIcons/ParametricLight.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '12bd9d75f88fd376c7a37af4625dba5e') in 0.1152642 seconds
+Asset Pipeline Refresh (id=768306e3034363040b3c3c5b7ce0767f): Total: 0.107 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.036672s
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/yasse/HavenGameJamRepo
+ExitCode: 0 Duration: 12s
+[752/968    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[960/968    9s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[962/968    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 148 defines and 372 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[963/968    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 150 defines and 350 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[966/968    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[967/968    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (11.68 seconds), 6 items updated, 968 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+GPU Resident Drawer disposed.
+Total cache size 299387932
+Refreshing native plugins compatible for Editor in 26.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  8.432 seconds
+Domain Reload Profiling: 23544ms
+	BeginReloadAssembly (11883ms)
+		ExecutionOrderSort (22ms)
+		DisableScriptedObjects (2239ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (4890ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (594ms)
+	LoadAllAssembliesAndSetupDomain (2515ms)
+		LoadAssemblies (1422ms)
+		TypeCache.Refresh (103ms)
+			TypeCache.ScanAssembly (5ms)
+		AnalyzeDomain (1236ms)
+			BuildScriptInfoCaches (1063ms)
+			ResolveRequiredComponents (133ms)
+	FinalizeReload (8435ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (23ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (1111ms)
+			ProcessInitializeOnLoadAttributes (1924ms)
+			ProcessInitializeOnLoadMethodAttributes (861ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (13ms)
+		AwakeInstancesAfterBackupRestoration (2405ms)
+Refreshing native plugins compatible for Editor in 11.46 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=0eb7481e2d15d6f448f675acd72e6fad): Total: 43.584 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=10495 ms
+		Asset DB Callback time: managed=304 ms, native=1880 ms
+		Scripting: domain reloads=1, domain reload time=15614 ms, compile time=15287 ms, other=0 ms
+		Project Asset Count: scripts=1401, non-scripts=2418
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.514ms
+	InvokePackagesCallback: 16.601ms
+	ApplyChangesToAssetFolders: 7.219ms
+	Scan: 222.052ms
+	Collect global state as custom dependencies: 39.703ms
+	OnSourceAssetsModified: 3.492ms
+	CategorizeScriptCompilationAssets: 1.167ms
+	ProcessAssetsWithTransientArtifactChanges: 31.610ms
+	CategorizeAssets: 731.971ms
+	CompileScripts: 15287.488ms
+	ImportOutOfDateAssets: 8540.079ms (8490.128ms without children)
+		CollectScriptTypesHashes: 89.636ms
+		ReloadNativeAssets: 3.198ms
+		UnloadImportedAssets: 34.263ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.992ms
+		ImportSchedulerStart: 10.200ms
+	PostProcessAllAssets: 314.036ms
+		XRBuildSystem.XRAssetImported 1.446ms
+		PostProcessCallbackCreateDeferredMaterials 1.094ms
+		ShaderAssetModifiedCallback 0.800ms
+		RaytracingShaderImportPostprocess 0.412ms
+		VCAutoAddAssetPostprocess 0.343ms
+		WindowTitlePostprocess 0.334ms
+		PostprocessAssetsUpdateCachedIcon 0.089ms
+		MonoPostProcessAllAssets: 303.584ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 77.260ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 39.253ms
+			AssetChangedListener.OnPostprocessAllAssets 34.294ms
+			AssetPostprocessor.OnPostprocessAllAssets 21.286ms
+			SyncVS.PostprocessSyncProject 19.339ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 9.556ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.876ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 6.500ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 6.064ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 4.477ms
+			MaterialPostprocessor.OnPostprocessAllAssets 4.405ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 3.767ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 3.698ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.471ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 2.201ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.988ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.828ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.687ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.629ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.544ms
+			PostProcessor.OnPostprocessAllAssets 1.446ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.410ms
+			AssetEvents.OnPostprocessAllAssets 1.158ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.144ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.116ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.876ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.834ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.737ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.682ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.581ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.493ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.469ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.401ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.353ms
+	PostAssetChangesProfiler: 1863.636ms
+	GatherAllCurrentPrimaryImportResultRevisions: 8.790ms
+	UnloadStreamsBegin: 75.192ms
+	PersistCurrentRevisions: 0.421ms
+	GenerateScriptTypeHashes: 49.235ms
+	GenerateScriptTypeSerializationHashes: 87.763ms
+	Untracked: 16335.257ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            54.449 ms
+	Integration:            133.134 ms
+	Integration of assets:  0.134 ms
+	Thread Wait Time:       -0.030 ms
+	Total Operation Time:   187.687 ms
+Unloading 20 unused Assets / (5.9 KB). Loaded Objects now: 8912.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 160.283200 ms (FindLiveObjects: 4.317500 ms CreateObjectMapping: 5.609400 ms MarkObjects: 132.120800 ms  DeleteObjects: 17.392400 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+[Worker2] Imported GUID: 311973061cd7d474ebe00f2c7ab7f79c - Path: Assets/Scripts/KillScript.cs - Importer: PreviewImporter -> (ImportResultId: 'e140c26b2113bb55147e6b2037a7a489') in 0.0952424 seconds
+Asset Pipeline Refresh (id=3eb7922bb21792045aae32202b44551f): Total: 0.030 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.330 ms
+	Integration:            56.239 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.032 ms
+	Total Operation Time:   61.619 ms
+Unloading 2 unused Assets / (5.8 KB). Loaded Objects now: 8925.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 137.243100 ms (FindLiveObjects: 2.753600 ms CreateObjectMapping: 2.583000 ms MarkObjects: 130.780700 ms  DeleteObjects: 0.342800 ms)
+
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.448 ms
+	Integration:            60.344 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   63.829 ms
+Unloading 2 unused Assets / (0.6 MB). Loaded Objects now: 8932.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 62.688100 ms (FindLiveObjects: 1.512000 ms CreateObjectMapping: 0.537200 ms MarkObjects: 59.736900 ms  DeleteObjects: 0.163700 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+Asset Pipeline Refresh (id=55682afc9a7bafa47933f87ebeb25b81): Total: 0.024 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.364 ms
+	Integration:            55.295 ms
+	Integration of assets:  0.025 ms
+	Thread Wait Time:       0.048 ms
+	Total Operation Time:   61.732 ms
+Unloading 2 unused Assets / (137.2 KB). Loaded Objects now: 8936.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 167.860300 ms (FindLiveObjects: 1.944200 ms CreateObjectMapping: 0.550400 ms MarkObjects: 162.907200 ms  DeleteObjects: 1.390300 ms)
+
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            8.470 ms
+	Integration:            86.307 ms
+	Integration of assets:  0.024 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   94.824 ms
+Unloading 2 unused Assets / (6.0 KB). Loaded Objects now: 8960.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 261.914700 ms (FindLiveObjects: 2.842400 ms CreateObjectMapping: 5.237300 ms MarkObjects: 252.466800 ms  DeleteObjects: 0.377600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=a2ad97c4c22ae3442a9095c6b9d0d6f0): Total: 0.368 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=0, local cache=2, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=276 ms
+		Asset DB Callback time: managed=43 ms, native=47 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1401, non-scripts=2418
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.423ms
+	ApplyChangesToAssetFolders: 1.150ms
+	Scan: 88.960ms
+	Collect global state as custom dependencies: 2.457ms
+	OnSourceAssetsModified: 19.474ms
+	ProcessAssetsWithTransientArtifactChanges: 3.159ms
+	CategorizeAssets: 49.693ms
+	ImportOutOfDateAssets: 17.022ms (1.006ms without children)
+		ReloadNativeAssets: 0.102ms
+		UnloadImportedAssets: 3.484ms
+		ReloadImportedAssets: 3.625ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.079ms
+		ImportSchedulerStart: 7.716ms
+	PostProcessAllAssets: 47.708ms
+		XRBuildSystem.XRAssetImported 21.997ms
+		PostProcessCallbackCreateDeferredMaterials 0.247ms
+		MonoPostProcessAllAssets: 24.963ms
+			SyncVS.PostprocessSyncProject 7.098ms
+			AssetChangedListener.OnPostprocessAllAssets 4.422ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.553ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.684ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.964ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.944ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.347ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.315ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.284ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.223ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.208ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.204ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.201ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.182ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.149ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.120ms
+			PostProcessor.OnPostprocessAllAssets 0.069ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.068ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.065ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.060ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.058ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 23.194ms
+	GatherAllCurrentPrimaryImportResultRevisions: 6.823ms
+	UnloadStreamsBegin: 0.088ms
+	PersistCurrentRevisions: 4.906ms
+	UnloadStreamsEnd: 0.104ms
+	Untracked: 89.165ms
+
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.036 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Asset Pipeline Refresh (id=298ec9c8478b1ee48b1b288f1022389f): Total: 0.073 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 12a8335b28b29f9478d13cd7bf41ff2e - Path: Assets/Levels/Level 1.unity' with importer (DefaultImporter)
+Imported 'GUID: 12a8335b28b29f9478d13cd7bf41ff2e' -> (Import Result ID: 'a3677b0a4bdb5cea05e07183e5590ce7') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=c86364eba0eb141ef63cae9e882c96ac DependenciesID=5bfe9d69c961948aad2fa44455766d4f StaticDependenciesID=5478e42b05a2e9688718cdd007a0d263 
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e09952a4bec1e9443b6cc3c6cb405118): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=43b6565fd80379148b7a323bebdd5b08): Total: 0.036 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=1a4c2e852b8bc9e4da8a549247aa3400): Total: 0.020 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.251 ms
+	Integration:            96.688 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.054 ms
+	Total Operation Time:   101.005 ms
+Unloading 184 unused Assets / (0.9 MB). Loaded Objects now: 9082.
+Memory consumption went from 0.67 GB to 0.66 GB.
+Total: 157.226200 ms (FindLiveObjects: 2.582200 ms CreateObjectMapping: 1.185000 ms MarkObjects: 144.616200 ms  DeleteObjects: 8.048400 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+Loaded scene 'Library/Unused/2b9bee95ac9771b4b828ff3045d0980c'
+	Deserialize:            9.378 ms
+	Integration:            1.616 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.087 ms
+	Total Operation Time:   11.090 ms
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (2.0 KB). Loaded Objects now: 9332.
+Memory consumption went from 0.68 GB to 0.68 GB.
+Total: 237.615900 ms (FindLiveObjects: 8.080000 ms CreateObjectMapping: 5.009700 ms MarkObjects: 222.964300 ms  DeleteObjects: 0.621100 ms)
+
+Importing 'GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab' with importer (PrefabImporter)
+Imported 'GUID: bdf3013a96716614d90ff149ed83777d' -> (Import Result ID: 'b5a6e97498f11a86dca13a3277efc9e5') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b9f6eb7ad00059e6c12bfbf9aa2d76b DependenciesID=875b83b37a5d991b8df908b05ba5ca6e StaticDependenciesID=c72603a08152a3044a8015593128c039 
+Refreshing native plugins compatible for Editor in 13.82 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=6827a6947f8809046bef2ebdd54a413a): Total: 0.814 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=7 ms, native=688 ms
+		Asset DB Callback time: managed=25 ms, native=90 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1401, non-scripts=2418
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.165ms
+	ApplyChangesToAssetFolders: 2.356ms
+	Scan: 194.451ms
+	Collect global state as custom dependencies: 5.182ms
+	OnSourceAssetsModified: 1.101ms
+	CategorizeScriptCompilationAssets: 0.093ms
+	ProcessAssetsWithTransientArtifactChanges: 5.476ms
+	CategorizeAssets: 162.442ms
+	ImportOutOfDateAssets: 79.419ms (1.451ms without children)
+		ImportManagerImport: 65.572ms (4.461ms without children)
+			UpdateCategorizedAssets: 0.117ms
+		ReloadNativeAssets: 0.599ms
+		UnloadImportedAssets: 3.514ms
+		ReloadImportedAssets: 7.605ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.676ms
+		ImportSchedulerStart: 5.539ms
+	PostProcessAllAssets: 86.978ms
+		XRBuildSystem.XRAssetImported 59.735ms
+		ObjectImages.AssetImported 0.574ms
+		PostProcessCallbackCreateDeferredMaterials 0.131ms
+		MonoPostProcessAllAssets: 25.580ms
+			SyncVS.PostprocessSyncProject 5.934ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 4.907ms
+			AssetChangedListener.OnPostprocessAllAssets 4.619ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.335ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.261ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.997ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.204ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.175ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.174ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.156ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.153ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.153ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.134ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.133ms
+			PostProcessor.OnPostprocessAllAssets 0.105ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.101ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.096ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.087ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.072ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.060ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.055ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.054ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.052ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.052ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.051ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 27.994ms
+	GatherAllCurrentPrimaryImportResultRevisions: 24.239ms
+	UnloadStreamsBegin: 20.609ms
+	PersistCurrentRevisions: 1.223ms
+	Untracked: 173.689ms
+
+Importing 'GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab' with importer (PrefabImporter)
+Imported 'GUID: bdf3013a96716614d90ff149ed83777d' -> (Import Result ID: 'ff0bdeabdf9707556b5e9df4d84b8d7e') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c171643a45b991e7fae651f1138d711e DependenciesID=641bd537290833eb3574dba9913714fe StaticDependenciesID=b1c9e5fbe2c6af6ef8651f0c4dd7bd67 
+Refreshing native plugins compatible for Editor in 22.20 ms, found 4 plugins.
+Asset Pipeline Refresh (id=af2974c615dd05b46abaad124cb64ceb): Total: 0.257 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker1] Imported GUID: 2bbb4ea86af3fcf43ab224b29dd1f919 - Path: Assets/Prefabs/Coin_Gold_Star.prefab - Importer: PreviewImporter -> (ImportResultId: '0452b009f620ec9f065e916317530dcb') in 0.1883025 seconds
+[Worker2] Imported GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab - Importer: PreviewImporter -> (ImportResultId: 'e63e09ee45097dfbc4ed749b3c36fba9') in 0.2155071 seconds
+Importing 'GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab' with importer (PrefabImporter)
+Imported 'GUID: bdf3013a96716614d90ff149ed83777d' -> (Import Result ID: '1e94d9066f7ec1dfc767ab1d9846b89c') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97b9830d542b2677bf67bafb34a51ce1 DependenciesID=d2da3c8b9ad50d33c96dfe4f8aac26ba StaticDependenciesID=2d286d32719df46fa6da5e318bc44b98 
+Refreshing native plugins compatible for Editor in 5.10 ms, found 4 plugins.
+Asset Pipeline Refresh (id=57318c42dadd05e488c048e29218831f): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: bdf3013a96716614d90ff149ed83777d - Path: Assets/Prefabs/Player.prefab - Importer: PreviewImporter -> (ImportResultId: '9d8521967fd008939172df2cabd475b7') in 0.0881975 seconds
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a62c548ece012a4448e8b266fb6fb378): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: 12a8335b28b29f9478d13cd7bf41ff2e - Path: Assets/Levels/Level 1.unity - Importer: PreviewImporter -> (ImportResultId: '970ba8fb6499b585e102761cc3959e12') in 0.0427598 seconds
+Importing 'GUID: 12a8335b28b29f9478d13cd7bf41ff2e - Path: Assets/Levels/Level 1.unity' with importer (DefaultImporter)
+Imported 'GUID: 12a8335b28b29f9478d13cd7bf41ff2e' -> (Import Result ID: '55f46766714227e734660664d342ddc2') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c86364eba0eb141ef63cae9e882c96ac DependenciesID=23c868b29e0cb1630918e035fcf4dba1 StaticDependenciesID=c416329c30eef20628bc53e1d2148c2c 
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a19da6e778ed6904e816c81ac245eb5f): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 1.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 1.unity'
+	Deserialize:            3.302 ms
+	Integration:            58.952 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   62.277 ms
+Unloading 163 unused Assets / (455.3 KB). Loaded Objects now: 9240.
+Memory consumption went from 0.68 GB to 0.68 GB.
+Total: 85.529500 ms (FindLiveObjects: 1.205200 ms CreateObjectMapping: 0.213300 ms MarkObjects: 82.509100 ms  DeleteObjects: 1.179700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (4.9 KB). Loaded Objects now: 9196.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 31.514100 ms (FindLiveObjects: 0.968300 ms CreateObjectMapping: 0.199000 ms MarkObjects: 29.902000 ms  DeleteObjects: 0.071200 ms)
+
+Opening scene 'Assets/Levels/Level 2.unity'
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 2.unity'
+	Deserialize:            5.691 ms
+	Integration:            71.982 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.077 ms
+	Total Operation Time:   77.755 ms
+Unloading 13 unused Assets / (229.4 KB). Loaded Objects now: 9215.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 36.597100 ms (FindLiveObjects: 1.670600 ms CreateObjectMapping: 0.410300 ms MarkObjects: 33.731000 ms  DeleteObjects: 0.367800 ms)
+
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.890 ms
+	Integration:            43.282 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.061 ms
+	Total Operation Time:   46.238 ms
+Unloading 3 unused Assets / (5.8 KB). Loaded Objects now: 9138.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 57.519500 ms (FindLiveObjects: 1.285100 ms CreateObjectMapping: 0.417600 ms MarkObjects: 54.382300 ms  DeleteObjects: 0.763500 ms)
+
+GPU Resident Drawer created.
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.059 ms
+	Integration:            47.227 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.061 ms
+	Total Operation Time:   49.356 ms
+Unloading 2 unused Assets / (349.0 KB). Loaded Objects now: 9125.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 53.767500 ms (FindLiveObjects: 1.578100 ms CreateObjectMapping: 0.294200 ms MarkObjects: 50.625300 ms  DeleteObjects: 0.585100 ms)
+
+GPU Resident Drawer created.
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 8.79 ms, found 4 plugins.
+Asset Pipeline Refresh (id=4c3cc66e64264cc4ab31a66178915473): Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 9f65d208cc18c2847ab937ee4779674c - Path: Assets/Levels/Level 2.unity' with importer (DefaultImporter)
+Imported 'GUID: 9f65d208cc18c2847ab937ee4779674c' -> (Import Result ID: '0ff2e07ac47839283dd46d9d4d9feda3') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=346e4e1fa7a8caa37c1bcef23477d0b9 DependenciesID=a78a749a8c983a88b24d7f1f53d22a68 StaticDependenciesID=46dbb2c6aa0426b4c09b295bba786a40 
+Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a0cc8f901213ad54b85d2e6e17d14fe6): Total: 0.086 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 3.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 3.unity'
+	Deserialize:            3.196 ms
+	Integration:            37.634 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.036 ms
+	Total Operation Time:   40.870 ms
+Unloading 160 unused Assets / (239.2 KB). Loaded Objects now: 9241.
+Memory consumption went from 0.68 GB to 0.68 GB.
+Total: 37.859000 ms (FindLiveObjects: 1.095800 ms CreateObjectMapping: 0.374100 ms MarkObjects: 35.428600 ms  DeleteObjects: 0.434200 ms)
+
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.128 ms
+	Integration:            60.923 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.057 ms
+	Total Operation Time:   65.118 ms
+Unloading 13 unused Assets / (0.6 MB). Loaded Objects now: 9172.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 157.118200 ms (FindLiveObjects: 2.699300 ms CreateObjectMapping: 2.751100 ms MarkObjects: 149.700900 ms  DeleteObjects: 1.194900 ms)
+
+GPU Resident Drawer created.
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 4.64 ms, found 4 plugins.
+Asset Pipeline Refresh (id=059b30c98bc1ca3469661583a97945c0): Total: 0.079 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c2362b420ae7e4fa677cab777415a3 - Path: Assets/Levels/Level 3.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c2362b420ae7e4fa677cab777415a3' -> (Import Result ID: '7bd99d900ed82fd354602572e8c71437') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=f3f7aebdfa5f115bc227056eda564405 DependenciesID=c1423a8c7e6c436ca232088f64752fb5 StaticDependenciesID=1842ea602f83e9be13b2344b478b4be9 
+Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Asset Pipeline Refresh (id=6ee7dff9c365511469f74307f2f680fd): Total: 0.089 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 3.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 3.unity'
+	Deserialize:            3.429 ms
+	Integration:            45.811 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.049 ms
+	Total Operation Time:   49.291 ms
+Unloading 159 unused Assets / (1.7 MB). Loaded Objects now: 9256.
+Memory consumption went from 0.68 GB to 0.68 GB.
+Total: 56.390500 ms (FindLiveObjects: 1.250600 ms CreateObjectMapping: 0.369600 ms MarkObjects: 52.037000 ms  DeleteObjects: 2.074200 ms)
+
+[Worker2] Imported GUID: 99c2362b420ae7e4fa677cab777415a3 - Path: Assets/Levels/Level 3.unity - Importer: PreviewImporter -> (ImportResultId: '82cc1b1dc2a925b071dff398fc241666') in 0.0635881 seconds
+[Worker2] Imported GUID: 9f65d208cc18c2847ab937ee4779674c - Path: Assets/Levels/Level 2.unity - Importer: PreviewImporter -> (ImportResultId: 'dfe7a467359da42aee5d7da4e705b62b') in 0.0367898 seconds
+Opening scene 'Assets/Levels/Level 2.unity'
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 2.unity'
+	Deserialize:            3.855 ms
+	Integration:            42.179 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.129 ms
+	Total Operation Time:   46.171 ms
+Unloading 13 unused Assets / (0.6 MB). Loaded Objects now: 9230.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 39.799100 ms (FindLiveObjects: 2.099200 ms CreateObjectMapping: 0.721200 ms MarkObjects: 36.380200 ms  DeleteObjects: 0.119100 ms)
+
+Opening scene 'Assets/Levels/Level 4.unity'
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 4.unity'
+	Deserialize:            3.055 ms
+	Integration:            25.358 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.066 ms
+	Total Operation Time:   28.481 ms
+Unloading 4 unused Assets / (1.0 KB). Loaded Objects now: 9255.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 31.064500 ms (FindLiveObjects: 1.120000 ms CreateObjectMapping: 0.180200 ms MarkObjects: 29.353600 ms  DeleteObjects: 0.057800 ms)
+
+Importing 'GUID: b6ac962afc997994eaba9086f9cc0382 - Path: Assets/Levels/Level 4.unity' with importer (DefaultImporter)
+Imported 'GUID: b6ac962afc997994eaba9086f9cc0382' -> (Import Result ID: '4719e01d236dbe677d59636ac0d53383') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=9c8c552bbbf94960b287b94a774b0342 DependenciesID=98c435b841df547c643da219a8bfa6bf StaticDependenciesID=0890402e6adf2e186448315004fe6a23 
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7957acc8e34c09942bdc7ffe86688b88): Total: 0.126 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 5.unity'
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 5.unity'
+	Deserialize:            8.536 ms
+	Integration:            63.241 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.082 ms
+	Total Operation Time:   71.869 ms
+Unloading 172 unused Assets / (1.3 MB). Loaded Objects now: 9260.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 70.774800 ms (FindLiveObjects: 1.468600 ms CreateObjectMapping: 0.477000 ms MarkObjects: 67.300200 ms  DeleteObjects: 0.870300 ms)
+
+GPU Resident Drawer disposed.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+GPU Resident Drawer created.
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+You died idiot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KillScript:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/KillScript.cs:13)
+
+(Filename: Assets/Scripts/KillScript.cs Line: 13)
+
+GPU Resident Drawer disposed.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.772 ms
+	Integration:            54.394 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.076 ms
+	Total Operation Time:   58.250 ms
+Unloading 3 unused Assets / (73.5 KB). Loaded Objects now: 9174.
+Memory consumption went from 0.68 GB to 0.68 GB.
+Total: 117.304900 ms (FindLiveObjects: 1.973800 ms CreateObjectMapping: 2.678500 ms MarkObjects: 111.168100 ms  DeleteObjects: 0.790300 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Asset Pipeline Refresh (id=24bb8e5a08a21744eae03029b5c47711): Total: 0.057 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a1e41d7ade74f8043ac2af8a91419f34 - Path: Assets/Levels/Level 5.unity' with importer (DefaultImporter)
+Imported 'GUID: a1e41d7ade74f8043ac2af8a91419f34' -> (Import Result ID: '23e2c21c843debaf7d3cfb25b11c0e37') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=6829919310d4540b1a6873d372a8080f DependenciesID=d03ca6d3011456ac751df38a4ab2a933 StaticDependenciesID=7161b785208d1ff4a8aecb8fef214bba 
+Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+Asset Pipeline Refresh (id=d6848e331a3e9514f9ae636106da3beb): Total: 0.095 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 5.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 5.unity'
+	Deserialize:            5.542 ms
+	Integration:            55.370 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.075 ms
+	Total Operation Time:   60.994 ms
+Unloading 159 unused Assets / (9.0 MB). Loaded Objects now: 9275.
+Memory consumption went from 0.69 GB to 0.69 GB.
+Total: 70.724900 ms (FindLiveObjects: 1.585100 ms CreateObjectMapping: 0.438300 ms MarkObjects: 67.257900 ms  DeleteObjects: 0.711100 ms)
+
+[Worker2] Imported GUID: a1e41d7ade74f8043ac2af8a91419f34 - Path: Assets/Levels/Level 5.unity - Importer: PreviewImporter -> (ImportResultId: 'd08032ab52915e05c0278f575267fa76') in 0.0742169 seconds
+Opening scene 'Assets/Levels/Level 6.unity'
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 6.unity'
+	Deserialize:            6.483 ms
+	Integration:            81.288 ms
+	Integration of assets:  0.014 ms
+	Thread Wait Time:       0.074 ms
+	Total Operation Time:   87.859 ms
+Unloading 11 unused Assets / (290.1 KB). Loaded Objects now: 9268.
+Memory consumption went from 0.68 GB to 0.68 GB.
+Total: 92.743200 ms (FindLiveObjects: 3.586800 ms CreateObjectMapping: 0.527900 ms MarkObjects: 87.368600 ms  DeleteObjects: 0.310400 ms)
+
+Importing 'GUID: 11af32488c630d644a28bc2d31deeab1 - Path: Assets/Levels/Level 6.unity' with importer (DefaultImporter)
+Imported 'GUID: 11af32488c630d644a28bc2d31deeab1' -> (Import Result ID: 'aaa8766abaebcc5cb0d3037da3fc516a') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=af1a6912060160eab6511ee6bdb86c11 DependenciesID=83e3e042afede668108f1443be245113 StaticDependenciesID=48773fa2c08c7afbe76baa42a3725d3d 
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+Asset Pipeline Refresh (id=0cdc22f775357234a9df6333fe1855db): Total: 0.144 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 7.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 7.unity'
+	Deserialize:            9.063 ms
+	Integration:            40.633 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.048 ms
+	Total Operation Time:   49.750 ms
+Unloading 163 unused Assets / (2.7 MB). Loaded Objects now: 9502.
+Memory consumption went from 0.70 GB to 0.70 GB.
+Total: 144.962200 ms (FindLiveObjects: 1.278000 ms CreateObjectMapping: 0.222600 ms MarkObjects: 142.141800 ms  DeleteObjects: 0.717200 ms)
+
+Importing 'GUID: 16d6742cd6ef5fb4ca8af833039e425e - Path: Assets/Levels/Level 7.unity' with importer (DefaultImporter)
+Imported 'GUID: 16d6742cd6ef5fb4ca8af833039e425e' -> (Import Result ID: '48186e328b1b2a4da61f392724d1f829') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=a48754276fcfb4a83316f12a4bde15d8 DependenciesID=f850405e27fa8507d19c29f1a9b5ac62 StaticDependenciesID=19a6aa83d021d8e6d36b599cd88062ee 
+Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+Asset Pipeline Refresh (id=371dc6be1f6753c40a1051ae1abc494c): Total: 0.111 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 8.unity'
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 8.unity'
+	Deserialize:            5.196 ms
+	Integration:            95.589 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.047 ms
+	Total Operation Time:   100.838 ms
+Unloading 170 unused Assets / (6.8 MB). Loaded Objects now: 9268.
+Memory consumption went from 0.70 GB to 0.69 GB.
+Total: 177.972900 ms (FindLiveObjects: 1.890000 ms CreateObjectMapping: 0.384300 ms MarkObjects: 172.371000 ms  DeleteObjects: 2.534700 ms)
+
+[Worker2] Imported GUID: 7fd35edac4494c64daba4f265b71d82c - Path: Assets/Levels/Level 9.unity - Importer: PreviewImporter -> (ImportResultId: '5039740bbaaf5b906c8bde33cf7e404f') in 0.1754363 seconds
+Importing 'GUID: a4e127f58fae4924bbdf45d3a27c967e - Path: Assets/Levels/Level 8.unity' with importer (DefaultImporter)
+Imported 'GUID: a4e127f58fae4924bbdf45d3a27c967e' -> (Import Result ID: 'e26452dce470029368c593983a4c5ff6') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=c645a303b48bbc1f73809e17e0dff54e DependenciesID=af0e6c6238cf2f88a9d096ac20475036 StaticDependenciesID=7c904b2d655e5860f884aea277d7be71 
+Refreshing native plugins compatible for Editor in 6.53 ms, found 4 plugins.
+Asset Pipeline Refresh (id=adae0091861a2514a823d30db1c2499e): Total: 0.269 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Levels/Level 9.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Levels/Level 9.unity'
+	Deserialize:            12.664 ms
+	Integration:            192.787 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.122 ms
+	Total Operation Time:   205.585 ms
+Unloading 161 unused Assets / (9.6 MB). Loaded Objects now: 9245.
+Memory consumption went from 0.70 GB to 0.69 GB.
+Total: 287.104900 ms (FindLiveObjects: 2.007400 ms CreateObjectMapping: 0.548500 ms MarkObjects: 282.273500 ms  DeleteObjects: 1.137500 ms)
+
+Importing 'GUID: 7fd35edac4494c64daba4f265b71d82c - Path: Assets/Levels/Level 9.unity' with importer (DefaultImporter)
+Imported 'GUID: 7fd35edac4494c64daba4f265b71d82c' -> (Import Result ID: '0550f0a706ee4224f44d6eb8540b27c7') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=e0044fefa16fdf97b30a3328b7acaade DependenciesID=1615c6304969e0260c032230c628ea88 StaticDependenciesID=93e3dfc6a71215f80e39c79a845126bf 
+Refreshing native plugins compatible for Editor in 11.44 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b97c0ed6f212bb644b083d99c3c34dac): Total: 0.299 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)

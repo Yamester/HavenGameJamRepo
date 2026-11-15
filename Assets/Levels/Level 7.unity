@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 142002561}
   - component: {fileID: 142002560}
   - component: {fileID: 142002559}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (56)
   m_TagString: Death
   m_Icon: {fileID: 0}
@@ -1288,7 +1288,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2834,7 +2834,7 @@ GameObject:
   - component: {fileID: 714310361}
   - component: {fileID: 714310360}
   - component: {fileID: 714310359}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (54)
   m_TagString: Death
   m_Icon: {fileID: 0}
@@ -2871,7 +2871,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3394,9 +3394,9 @@ GameObject:
   - component: {fileID: 924139903}
   - component: {fileID: 924139902}
   - component: {fileID: 924139901}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3431,11 +3431,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &924139902
@@ -3619,7 +3619,7 @@ GameObject:
   - component: {fileID: 1073764668}
   - component: {fileID: 1073764667}
   - component: {fileID: 1073764666}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (39)
   m_TagString: Death
   m_Icon: {fileID: 0}
@@ -3635,7 +3635,7 @@ Transform:
   m_GameObject: {fileID: 1073764664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.5, y: 0, z: 1}
+  m_LocalPosition: {x: -22.441412, y: -0.0916996, z: 0.98459804}
   m_LocalScale: {x: 4, y: 2, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3656,7 +3656,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6737,7 +6737,7 @@ GameObject:
   - component: {fileID: 2109650260}
   - component: {fileID: 2109650259}
   - component: {fileID: 2109650258}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (55)
   m_TagString: Death
   m_Icon: {fileID: 0}
@@ -6774,7 +6774,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3

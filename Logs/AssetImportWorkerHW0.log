@@ -241,3 +241,10 @@ Unloading 6626 unused Assets / (6.2 MB). Loaded Objects now: 7544.
 Memory consumption went from 338.2 MB to 332.0 MB.
 Total: 42.477100 ms (FindLiveObjects: 5.187500 ms CreateObjectMapping: 2.164300 ms MarkObjects: 27.313100 ms  DeleteObjects: 6.623900 ms)
 
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T21:23:49.6256055Z
+  Time since last request: 1663234.95872589992359 seconds.
+  importAddress: GUID: 2bbb4ea86af3fcf43ab224b29dd1f919 - Path: Assets/Prefabs/Coin_Gold_Star.prefab - Importer: PreviewImporter
+Importing 'GUID: 2bbb4ea86af3fcf43ab224b29dd1f919 - Path: Assets/Prefabs/Coin_Gold_Star.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
