@@ -8,10 +8,10 @@ public class Movement : MonoBehaviour
     public CharacterController controller;
     public Vector3 groundBoxSize = new Vector3(1.4f, 0.4f, 1.4f);
 
-    public float speed = 12f;
+    public float speed = 6f;
     public float gravity = -9.81f;
-    public int Recoil = 25;
-    public float drag = 5f;
+    public int Recoil = 8;
+    public float drag = 6f;
     public Transform groundCheck;
 
     public Transform Camera;
