@@ -25806,3 +25806,45 @@ Importing 'GUID: a1e41d7ade74f8043ac2af8a91419f34 - Path: Assets/Levels/Level 5.
 Imported 'GUID: a1e41d7ade74f8043ac2af8a91419f34' -> (Import Result ID: '2dd8199012995236c248381bb82ba1dd') in 0.258 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1aced703f6c17deb23026beeb6686da3 DependenciesID=6447516238c41cdf21eade8053547e79 StaticDependenciesID=41587a2141b22dade0ca1a89c5162eed 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T18:37:55.0588606Z
+  Time since last request: 996.19466729999999 seconds.
+  importAddress: GUID: 93e334ee6e5ff344e968f2a8b680a929 - Path: Assets/Materials - Importer: PreviewImporter
+Importing 'GUID: 93e334ee6e5ff344e968f2a8b680a929 - Path: Assets/Materials - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 93e334ee6e5ff344e968f2a8b680a929' -> (Import Result ID: 'c0d41d8c2fc0add0d23d037353dacf6b') in 0.146 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3477c71a534f82025048d7a23034429e DependenciesID=f36d598608b7e1f4b60120a217a2e0db StaticDependenciesID=5df6ebd6fbdcd368e7aa5329ca598202 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T18:37:55.3443004Z
+  Time since last request: 0.0009339 seconds.
+  importAddress: GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: PreviewImporter
+Importing 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20 - Path: Assets/Materials/New Material 4.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0aeb01a0ba1ae3b46b0f1aa080c72a20' -> (Import Result ID: 'a82eb1584a9d330ae5a7994b7427cd9b') in 11.121 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15b345b5395e7de1c264259c596f5604 DependenciesID=2ee46baf8832d4bcce929cb9aab013c4 StaticDependenciesID=39d0ca8a56f00953a3427a49fd028b3d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T18:38:06.5376755Z
+  Time since last request: 0.0004075 seconds.
+  importAddress: GUID: 8ae195a0bb3eed8458bff3004d8c58b2 - Path: Assets/Materials/New Material 2.mat - Importer: PreviewImporter
+Importing 'GUID: 8ae195a0bb3eed8458bff3004d8c58b2 - Path: Assets/Materials/New Material 2.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ae195a0bb3eed8458bff3004d8c58b2' -> (Import Result ID: '63b23799074133130713d01761c777b2') in 7.452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edfc4173c11ad2b096dac88b0be4ca52 DependenciesID=7a38cb2315ecc9436275af1797f717a8 StaticDependenciesID=20e81af309daf777a3cadc3c08ab359c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-15T18:38:14.0523897Z
+  Time since last request: 0.0132151 seconds.
+  importAddress: GUID: 6386b701ece82bd4995bfa213b085f11 - Path: Assets/Materials/New Material 3.mat - Importer: PreviewImporter
+Importing 'GUID: 6386b701ece82bd4995bfa213b085f11 - Path: Assets/Materials/New Material 3.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6386b701ece82bd4995bfa213b085f11' -> (Import Result ID: 'a2870a52cb0be9de17d171c217f39e29') in 0.078 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1f7831112295ef79338e14e069cf8d8 DependenciesID=2045f9f42861edf5d842f7920947ed2e StaticDependenciesID=c65b5afc67bbfc8d44b59dec3f830ee5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+Curl error 42: Callback aborted
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
