@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 6770081920306563774}
   - component: {fileID: 7211200674572440985}
   - component: {fileID: 1799257644812197000}
+  - component: {fileID: 2167635041355538409}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: Untagged
@@ -466,7 +467,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.3
-  m_Height: 1.5
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1799257644812197000
@@ -481,6 +482,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 311973061cd7d474ebe00f2c7ab7f79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  Player: {fileID: 6994746923158361601}
+--- !u!54 &2167635041355538409
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720549514350607262}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6811268452266134431
 GameObject:
   m_ObjectHideFlags: 0
