@@ -1,0 +1,182 @@
+[2026-11-15T00:38:07.889Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.9f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 19836 --ipc-path Unity-Upm-19836 -l 2 --log-file 'C:\\Users\\casej\\Haven Main Menu Attempt 5/Logs/upm.log'
+[2026-11-15T00:38:07.966Z][INFO] IPC server started (IPC path=Unity-Upm-19836).
+[2026-11-15T00:38:07.966Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-19836.
+[2026-11-15T00:38:17.381Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:38:17.646Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T00:38:17.647Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:38:17.711Z][INFO] config:project:get-registries --> 200 (65 ms)
+[2026-11-15T00:38:17.797Z][INFO] project:list-packages --> 200 (416 ms)
+[2026-11-15T00:38:18.138Z][INFO] project:list-packages --> 200 (490 ms)
+[2026-11-15T00:38:18.260Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-11-15T00:38:18.284Z][INFO] project:update-dependencies --> 200 (24 ms)
+[2026-11-15T00:38:18.310Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-11-15T00:39:31.008Z][WARN] Requested version [1.3.6] for package [com.unity.dt.app-ui] overridden by minimum version [2.3.0].
+[2026-11-15T00:39:31.008Z][WARN] Requested version [3.2.1] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-11-15T00:39:31.008Z][WARN] Requested version [1.11.5] for package [com.unity.nuget.mono-cecil] overridden by minimum version [1.11.6].
+[2026-11-15T00:39:31.011Z][INFO] project:resolve-packages --> 200 (72701 ms)
+[2026-11-15T00:41:25.629Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:41:25.738Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:41:25.959Z][INFO] project:list-packages --> 200 (329 ms)
+[2026-11-15T00:41:26.031Z][INFO] project:list-packages --> 200 (293 ms)
+[2026-11-15T00:41:27.823Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T00:41:27.829Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-11-15T00:42:14.375Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:42:14.473Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:42:15.044Z][INFO] project:list-packages --> 200 (670 ms)
+[2026-11-15T00:42:15.152Z][INFO] project:list-packages --> 200 (679 ms)
+[2026-11-15T00:42:16.611Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T00:42:16.618Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-11-15T00:42:39.663Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:42:39.861Z][INFO] project:list-packages --> 200 (198 ms)
+[2026-11-15T00:42:41.931Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:42:42.092Z][INFO] project:list-packages --> 200 (161 ms)
+[2026-11-15T00:42:42.384Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-11-15T00:42:42.616Z][INFO] packages:get-packageinfo --> 200 (232 ms)
+[2026-11-15T00:42:43.398Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:42:44.033Z][INFO] project:list-packages --> 200 (635 ms)
+[2026-11-15T00:43:15.535Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-11-15T00:43:16.347Z][WARN] Requested version [1.3.6] for package [com.unity.dt.app-ui] overridden by minimum version [2.3.0].
+[2026-11-15T00:43:16.347Z][WARN] Requested version [3.2.1] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-11-15T00:43:16.347Z][WARN] Requested version [1.11.5] for package [com.unity.nuget.mono-cecil] overridden by minimum version [1.11.6].
+[2026-11-15T00:43:16.349Z][INFO] project:resolve-packages --> 200 (814 ms)
+[2026-11-15T00:43:16.436Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T00:43:16.442Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-11-15T00:43:16.451Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:43:16.619Z][INFO] project:list-packages --> 200 (168 ms)
+[2026-11-15T00:44:25.065Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:44:25.228Z][INFO] project:list-packages --> 200 (163 ms)
+[2026-11-15T00:44:27.210Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T00:44:27.214Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-11-15T00:44:29.008Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-11-15T00:44:29.464Z][INFO] packages:get-packageinfo --> 200 (456 ms)
+[2026-11-15T00:44:33.771Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:44:34.020Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:44:34.734Z][INFO] project:list-packages --> 200 (963 ms)
+[2026-11-15T00:44:34.736Z][INFO] project:list-packages --> 200 (716 ms)
+[2026-11-15T00:45:38.707Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:45:38.859Z][INFO] project:list-packages --> 200 (152 ms)
+[2026-11-15T00:45:40.558Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T00:45:40.563Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-11-15T00:45:42.282Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-11-15T00:45:42.840Z][INFO] packages:get-packageinfo --> 200 (558 ms)
+[2026-11-15T00:45:49.138Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:45:49.522Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T00:45:50.734Z][INFO] project:list-packages --> 200 (1596 ms)
+[2026-11-15T00:45:50.735Z][INFO] project:list-packages --> 200 (1213 ms)
+[2026-11-15T00:46:04.192Z][INFO] tarball:extract <-- Request received
+params: {}
+[2026-11-15T00:46:04.860Z][INFO] tarball:extract --> 200 (668 ms)
+[2026-11-15T01:13:13.679Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:13:13.844Z][INFO] project:list-packages --> 200 (165 ms)
+[2026-11-15T01:13:15.386Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T01:13:15.392Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-11-15T01:13:17.201Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-11-15T01:13:17.497Z][INFO] packages:get-packageinfo --> 200 (296 ms)
+[2026-11-15T01:13:19.192Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:13:19.476Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:13:19.956Z][INFO] project:list-packages --> 200 (480 ms)
+[2026-11-15T01:13:19.957Z][INFO] project:list-packages --> 200 (765 ms)
+[2026-11-15T01:14:16.160Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:14:16.291Z][INFO] project:list-packages --> 200 (131 ms)
+[2026-11-15T01:14:17.889Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T01:14:17.894Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-11-15T01:14:19.728Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-11-15T01:14:19.945Z][INFO] packages:get-packageinfo --> 200 (217 ms)
+[2026-11-15T01:14:21.697Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:14:22.094Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:14:22.523Z][INFO] project:list-packages --> 200 (429 ms)
+[2026-11-15T01:14:22.524Z][INFO] project:list-packages --> 200 (827 ms)
+[2026-11-15T01:57:21.641Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T01:57:21.969Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.041Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.042Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.048Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.049Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.053Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.063Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.119Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.129Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.136Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.139Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.149Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.152Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.171Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.175Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.208Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.212Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.236Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.240Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.252Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.256Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.383Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.395Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.396Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.397Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.403Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.410Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.411Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.414Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.415Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.417Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.420Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-11-15T01:57:22.449Z][INFO] project:list-packages --> 200 (812 ms)
+[2026-11-15T03:39:43.051Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-11-15T03:39:43.283Z][INFO] project:list-packages --> 200 (234 ms)
+[2026-11-15T03:39:45.050Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-11-15T03:39:45.056Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-11-15T03:39:47.321Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-11-15T03:39:47.809Z][INFO] packages:get-packageinfo --> 200 (488 ms)
